@@ -148,26 +148,36 @@ export default function LandingPage() {
     }>;
   }
 
-  const [data, setData] = useState<EventData>();
+  const [eventData, setEventData] = useState<EventData>();
+
+  // const fetchBookkeeping = async () => {
+  //   try {
+  //     const response = await fetch("");
+  //     if (!response.ok) {
+  //       throw new Error(`HTTP error! Status: ${response.status}`);
+  //     }
+  //   } catch (error) {
+  //     // Update the state with the error message
+  //     // setError(error.message || 'An error occurred');
+  //   } finally {
+  //     // Set loading to false, regardless of success or failure
+  //     // setLoading(false);
+  //   }
+  // };
 
   useEffect(() => {
-    const fetchData = async () => {
+    const fetchCourses = async () => {
       try {
         // Make the GET request to the API
         const response = await fetch(
           "https://dans.se/api/public/events/?org=dansarna&pw="
         );
-
         // Check if the request was successful (status code 200)
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }
-
-        // Parse the JSON response
         const responseData = await response.json();
-
-        // Update the state with the fetched data
-        setData(responseData);
+        setEventData(responseData);
       } catch (error) {
         // Update the state with the error message
         // setError(error.message || 'An error occurred');
@@ -176,21 +186,19 @@ export default function LandingPage() {
         // setLoading(false);
       }
     };
-
-    fetchData();
-    console.log(data);
+    fetchCourses();
+    console.log(eventData);
   }, []);
 
   return (
     <>
-      <h1>Heeeeeeejjj</h1>
-
+      <h1>Evenemang</h1>
       <table>
         <thead>
           <tr>
             <th>Event ID</th>
             <th>Kursnamn</th>
-            <th>Tid/Tilfälle</th>
+            <th>Tid/Tillfälle</th>
             <th>Tilfällen</th>
             <th>Grundpris</th>
             <th>Antagna deltagare</th>
@@ -198,15 +206,32 @@ export default function LandingPage() {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>Event id</td>
-            <td>Kursnamn</td>
-            <td>Tid/tilfälle</td>
-            <td>Tillfällen</td>
-            <td>Grundpris</td>
-            <td>Antagna deltagare</td>
-            <td>Instruktörer</td>
-          </tr>
+          {eventData?.events.map((event) => (
+            <tr>
+              <td>{event.id}</td>
+              <td>{event.name}</td>
+              <td>
+                {/* Får ej tag på denna info pga ej innloggad ska vara: 
+                
+                
+                 {event.schedule && event.schedule.occasions && event.schedule.occasions.length > 0 ? (
+    event.schedule.occasions.map((occasion, index) => (
+      <p key={index}>{occasion.length / 60} minutes</p>
+    ))
+  ) : (
+    <p>No occasions found</p>
+  )}
+                
+                */}
+                {event.schedule.dayAndTimeInfo}
+              </td>
+              <td>{event.schedule.numberOfPlannedOccasions} ggr</td>
+              <td>{event.pricing.basePriceInclVat} SEK</td>
+              {/* Får ej tag på denna info pga ej innloggad */}
+              {/* <td>{event.statistics.accepted}</td> */}
+              <td>{event.instructorsName}</td>
+            </tr>
+          ))}
         </tbody>
       </table>
     </>
