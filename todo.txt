@@ -1,0 +1,15 @@
+4. Beräkna vinst per kurs 
+4.2 koppla deltagare till kursid och hämta deras betalning :D
+5. Koppla kurs till instruktör 
+5.5 gör separat komponent med kursinfon :)
+6. Beräkna varje instruktörs minuter på varje kurs
+7.
+8.
+9.
+
+
+------KLART 💚-------
+1. Beräkna hur många kursminuter totalt som utförts - KLART 💚
+2. Ha hyra fast inlagt - KLART 💚
+3. Beräkna hyra per minut - KLART 💚
+4.3 gör en modell över en instruktör som har flera kurser - KLART 💚

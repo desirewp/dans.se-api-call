@@ -1,237 +1,204 @@
-import { useEffect, useState } from "react";
+import React from "react";
+import { useCallback, useEffect, useState } from "react";
+import { xml2json } from "xml-js";
+
+import Instructor from "../../models/instructor";
+import DanceEvent from "../../models/event";
 
 export default function LandingPage() {
-  interface EventData {
-    meta: {
-      retrieved: string;
-      session: {
-        username: string;
-        orgId: number;
-        orgName: string;
-      };
-      request: {
-        requestedURI: string;
-        type: string;
-        org: string;
-        pw: string;
-      };
-      org: {
-        id: number;
-      };
-      fed: {
-        id: number;
-      };
-    };
-    search: {
-      numRowsFound: number;
-      shown: {
-        numRowsShown: number;
-        firstShownRowNum: number;
-        lastShownRowNum: number;
-      };
-      limits: {
-        maxRows: number;
-        maxRowsDefault: number;
-        maxRowsAllowed: number;
-        maxRowsFound: number;
-      };
-    };
-    events: Array<{
-      id: number;
-      key: string;
-      code: string;
-      uid: string;
-      source: string;
-      name: string;
-      created: string;
-      creator: {
-        id: string;
-        key: string;
-        name: string;
-      };
-      category: {
-        id: number;
-        name: string;
-      };
-      place: string;
-      pricing: {
-        currency: string;
-        basePriceInclVat: number;
-      };
-      registration: {
-        status: string;
-        showing: boolean;
-        open: boolean;
-        url: string;
-        statusName: string;
-        statusText: string;
-        periods: {
-          startShowing: string;
-          startDirectReg: string;
-          startLateReg: string;
-          closeReg: string;
-        };
-      };
-      schedule: {
-        dayAndTimeInfo: string;
-        start: {
-          date: string;
-          time: string;
-          dayOfWeek: string;
-        };
-        end: {
-          date: string;
-          time: string;
-          dayOfWeek: string;
-        };
-        numberOfPlannedOccasions: number;
-        numberOfScheduledOccasions: number;
-        occasions: Array<{
-          length: number;
-          startDateTime: string;
-          startDayOfWeek: string;
-          endDateTime: string;
-        }>;
-      };
-      statistics: {
-        instructors: number;
-        accepted: number;
-        withDrawn: number;
-        leaders: number;
-        followers: number;
-        singleLeaders: number;
-        singleFollowers: number;
-        couples: number;
-        acceptedLeaders: number;
-        acceptedFollowers: number;
-        acceptedSingleLeaders: number;
-        acceptedSingleFollowers: number;
-        acceptedCouples: number;
-      };
-      grouping: {
-        eventBlock: {
-          key: string;
-          id: number;
-          name: string;
-        };
-        primaryEventGroup: {
-          key: string;
-          id: number;
-          name: string;
-        };
-      };
-      categories: Array<{
-        id: number;
-        code: string;
-        name: string;
-      }>;
-      requirements: {
-        minAge: number;
-        levelShort: string;
-        levelLong: string;
-        minLevelNumeric: number;
-        minParticipants: number;
-        maxParticipants: number;
-      };
-      instructorsName: string;
-      staff: {
-        hiddenStaff: {
-          person: {
-            id: number;
-            key: string;
-            name: string;
-            nickname: string;
-          };
-        };
-      };
-      longdescription: string;
-    }>;
-  }
+  const [eventData, setEventData] = useState<IEventData>();
+  const [bookingData, setBookingData] = useState<IBookingData>();
+  const [memberData, setMemberData] = useState<IMemberData>();
 
-  const [eventData, setEventData] = useState<EventData>();
+  const [instructors, setInstructors] = useState<Instructor[]>([]);
 
-  // const fetchBookkeeping = async () => {
-  //   try {
-  //     const response = await fetch("");
-  //     if (!response.ok) {
-  //       throw new Error(`HTTP error! Status: ${response.status}`);
-  //     }
-  //   } catch (error) {
-  //     // Update the state with the error message
-  //     // setError(error.message || 'An error occurred');
-  //   } finally {
-  //     // Set loading to false, regardless of success or failure
-  //     // setLoading(false);
-  //   }
-  // };
+  let organisatonTax: number = 0.2;
+  let rent: number = 150000;
+  const [totalMinutes, setTotalMinutes] = useState<number>(0);
+  const [rentPerMinute, setRentPerMinute] = useState<number>(0);
+
+  const fetchBookingXML = useCallback(async () => {
+    try {
+      const response = await fetch("src/assets/mock/bookings.xml");
+      if (!response.ok) {
+        throw new Error(`Failed to fetch bookings: ${response.statusText}`);
+      }
+      const xmlString = await response.text();
+      const json = xml2json(xmlString, { compact: true, spaces: 4 });
+      const jsonObject = JSON.parse(json);
+      setBookingData(jsonObject);
+    } catch (error) {
+      console.error("Error fetching bookings:", error);
+    }
+  }, []);
+
+  const fetchMemberXML = useCallback(async () => {
+    try {
+      const response = await fetch("src/assets/mock/members.xml");
+      if (!response.ok) {
+        throw new Error(`Failed to fetch members: ${response.statusText}`);
+      }
+      const xmlString = await response.text();
+      const json = xml2json(xmlString, { compact: true, spaces: 4 });
+      const jsonObject = JSON.parse(json);
+      setMemberData(jsonObject);
+    } catch (error) {
+      console.error("Error fetching members:", error);
+    }
+  }, []);
+
+  const fetchEventJson = useCallback(async () => {;
+    try {
+      const response = await fetch("src/assets/mock/events.json");
+      if (!response.ok) {
+        throw new Error(`Failed to fetch events: ${response.statusText}`);
+      }
+      const jsonObject = await response.json();
+      setEventData(jsonObject);
+    } catch (error) {
+      console.error("Error fetching events:", error);
+    }
+  }, []);
+
+  const calcTotalMinutes = () => {
+    if (eventData) {
+      let allMinutes: number[] = eventData.events.map((event) => {
+        const start = event.schedule.start.time;
+        const end = event.schedule.end.time;
+
+        const date1 = new Date(`1970-01-01 ${start}`);
+        const date2 = new Date(`1970-01-01 ${end}`);
+
+        const differenceInMinutes = (date2.getTime() - date1.getTime()) / 60000;
+
+        return differenceInMinutes;
+      });
+
+      let minutesSum = allMinutes.reduce((accumulator, currentValue) => {
+        return accumulator + currentValue;
+      }, 0);
+
+      setTotalMinutes(minutesSum);
+    }
+  };
+
+  const calcRentPerMinute = () => {
+    if (totalMinutes != 0) {
+      const rentMinute = Math.round((rent * 100) / totalMinutes) / 100;
+      setRentPerMinute(rentMinute);
+      // console.log(rentMinute);
+    }
+  };
 
   useEffect(() => {
-    const fetchCourses = async () => {
-      try {
-        // Make the GET request to the API
-        const response = await fetch(
-          "https://dans.se/api/public/events/?org=dansarna&pw="
-        );
-        // Check if the request was successful (status code 200)
-        if (!response.ok) {
-          throw new Error(`HTTP error! Status: ${response.status}`);
+    fetchBookingXML()
+      .then(fetchMemberXML)
+      .then(fetchEventJson)
+      .then(() => {
+        if (memberData && bookingData) {
+          calcTotalMinutes();
+          calcRentPerMinute();
+          populateInstructorsArray();
         }
-        const responseData = await response.json();
-        setEventData(responseData);
-      } catch (error) {
-        // Update the state with the error message
-        // setError(error.message || 'An error occurred');
-      } finally {
-        // Set loading to false, regardless of success or failure
-        // setLoading(false);
-      }
-    };
-    fetchCourses();
-    console.log(eventData);
-  }, []);
+      })
+      .catch((error) => {
+        console.error("Error fetching data:", error);
+      });
+  }, [fetchBookingXML, fetchMemberXML, fetchEventJson]);
+
+  useEffect(() => {
+    if (memberData && bookingData) {
+      calcTotalMinutes();
+      calcRentPerMinute();
+      populateInstructorsArray();
+    }
+  }, [memberData, bookingData, eventData]);
+
+  const populateInstructorsArray = () => {
+    if (memberData && bookingData) {
+      let allInstructors: Instructor[] = memberData.bookings.booking.map(
+        (member) => {
+          const instructorEvents: DanceEvent[] = [];
+
+          //Kollar vilka evenameng instruktören har hållit
+          bookingData.bookings.booking.forEach((booking) => {
+            if (
+              member.participant._attributes.userId ===
+                booking.participant._attributes.userId &&
+              booking.status._attributes.regStatusCode === "INSTRUCTOR"
+            ) {
+              // If the member is an instructor, add the event to their events array
+              instructorEvents.push(new DanceEvent(booking.event._text, 0)); // You need to provide a value for totalAddmissionFees
+            }
+          });
+          let newInstructor = new Instructor(
+            member.participant._attributes.userId,
+            member.participant.name._text,
+            instructorEvents,
+            0
+          );
+          return newInstructor;
+        }
+      );
+      setInstructors(allInstructors);
+
+      // console.log(allInstructors);
+    }
+  };
 
   return (
     <>
-      <h1>Evenemang</h1>
+      <p>Dansarna skatt: {organisatonTax * 100}%</p>
+      <p>Totala kursminuter: {totalMinutes} min</p>
+
+      <p>Hyra: {rent} kr</p>
+      <p>Hyra per minut: {rentPerMinute} kr</p>
+
+      <h1>Instruktörer ({instructors.length} st)</h1>
       <table>
         <thead>
           <tr>
-            <th>Event ID</th>
-            <th>Kursnamn</th>
-            <th>Tid/Tillfälle</th>
-            <th>Tilfällen</th>
-            <th>Grundpris</th>
-            <th>Antagna deltagare</th>
-            <th>Instruktörer</th>
+            <th>Instruktör</th>
+            <th>Antal Evenmang</th>
+            <th>Arvode</th>
           </tr>
         </thead>
         <tbody>
-          {eventData?.events.map((event) => (
-            <tr>
-              <td>{event.id}</td>
-              <td>{event.name}</td>
-              <td>
-                {/* Får ej tag på denna info pga ej innloggad ska vara: 
-                
-                
-                 {event.schedule && event.schedule.occasions && event.schedule.occasions.length > 0 ? (
-    event.schedule.occasions.map((occasion, index) => (
-      <p key={index}>{occasion.length / 60} minutes</p>
-    ))
-  ) : (
-    <p>No occasions found</p>
-  )}
-                
-                */}
-                {event.schedule.dayAndTimeInfo}
-              </td>
-              <td>{event.schedule.numberOfPlannedOccasions} ggr</td>
-              <td>{event.pricing.basePriceInclVat} SEK</td>
-              {/* Får ej tag på denna info pga ej innloggad */}
-              {/* <td>{event.statistics.accepted}</td> */}
-              <td>{event.instructorsName}</td>
-            </tr>
-          ))}
+          {/* Lägg in att endast det event som instruktören medverkat på visas :)*/}
+          {instructors.map((instructor, index) => {
+            return (
+              <React.Fragment key={index}>
+                <tr>
+                  <td>{instructor.name}</td>
+                  <td>Evenemang st</td>
+                  <td>Totalt Arvode SEK</td>
+                </tr>
+                <tr>
+                  <td col-span="3">
+                    <table>
+                      <thead>
+                        <tr>
+                          <th>Kursnamn</th>
+
+                          <th>Arvode</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {instructor.events.map((event, index1) => {
+                          return (
+                            <tr key={index1}>
+                              <td>{event.eventName}</td>
+                              <td>{event.totalAddmissionFees}</td>
+                            </tr>
+                          );
+                        })}
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </React.Fragment>
+            );
+          })}
         </tbody>
       </table>
     </>

@@ -1,0 +1,2553 @@
+{
+  "meta": {
+    "retrieved": "2024-02-19 14:44:08",
+    "session": {
+      "username": "desireewp",
+      "orgId": 3836,
+      "orgName": "Dansarna"
+    },
+    "request": {
+      "requestedURI": "api/public/",
+      "type": "events",
+      "org": "dansarna",
+      "pw": ""
+    },
+    "org": {
+      "id": 3836
+    },
+    "fed": {
+      "id": 3836
+    }
+  },
+  "search": {
+    "numRowsFound": 20,
+    "shown": {
+      "numRowsShown": 20,
+      "firstShownRowNum": 1,
+      "lastShownRowNum": 20
+    },
+    "limits": {
+      "maxRows": 250,
+      "maxRowsDefault": 250,
+      "maxRowsAllowed": 10000,
+      "maxRowsFound": 1000000
+    }
+  },
+  "events": [
+    {
+      "id": 207701,
+      "key": "XAY5GzxguqeIZGRTyUhAwu4g",
+      "code": "VT24-BACH-1",
+      "uid": "207701.event@cogwork.se",
+      "source": "https://dans.se/event/207701",
+      "name": "Bachata Advanced Workshop",
+      "created": "2023-12-07 20:54:11",
+      "creator": {
+        "id": "66551",
+        "key": "NWmuHRISOE0epLzmd0Bfy9pP",
+        "name": "Svetlana Löfstrand"
+      },
+      "category": {
+        "id": 1,
+        "name": ""
+      },
+      "place": "Lda1",
+      "pricing": {
+        "currency": "SEK",
+        "basePriceInclVat": 210
+      },
+      "registration": {
+        "status": "CLOSED",
+        "showing": true,
+        "open": false,
+        "url": "https://dans.se/dansarna/shop/new?event=207701",
+        "statusName": "Stängd",
+        "statusText": "Anmälan stängd",
+        "periods": {
+          "startShowing": "2023-12-08 00:00:00",
+          "startDirectReg": "2023-12-08 00:00:00",
+          "startLateReg": "2024-01-14 00:00:00",
+          "closeReg": "2024-01-15 00:00:00"
+        }
+      },
+      "schedule": {
+        "dayAndTimeInfo": "Lör 14.15-15.30",
+        "start": {
+          "date": "2024-01-13",
+          "time": "14:15:00",
+          "dayOfWeek": "6"
+        },
+        "end": {
+          "date": "2024-01-13",
+          "time": "15:30:00",
+          "dayOfWeek": "6"
+        },
+        "numberOfPlannedOccasions": 1,
+        "numberOfScheduledOccasions": 1,
+        "occasions": [
+          {
+            "length": 4500,
+            "startDateTime": "2024-01-13 14:15:00",
+            "startDayOfWeek": "6",
+            "endDateTime": "2024-01-13 15:30:00"
+          }
+        ]
+      },
+      "statistics": {
+        "instructors": 2,
+        "accepted": 15,
+        "withDrawn": 1,
+        "leaders": 7,
+        "followers": 8,
+        "singleLeaders": 4,
+        "singleFollowers": 5,
+        "couples": 3,
+        "acceptedLeaders": 7,
+        "acceptedFollowers": 8,
+        "acceptedSingleLeaders": 4,
+        "acceptedSingleFollowers": 5,
+        "acceptedCouples": 3
+      },
+      "grouping": {
+        "eventBlock": {
+          "key": "95Wuhb8rFIH0foOzLPtaZLps",
+          "id": 14474,
+          "name": "Vårterminen 2024"
+        },
+        "primaryEventGroup": {
+          "key": "hsMTpSHrlv9xfuOmGct7tmfc",
+          "id": 7899,
+          "name": "Bachata"
+        }
+      },
+      "categories": [
+        {
+          "id": 1,
+          "code": "NONE",
+          "name": ""
+        }
+      ],
+      "requirements": {
+        "minAge": 18,
+        "levelShort": "<span title=\"Från Avancerad\">A</span>",
+        "levelLong": "<span title=\"Från Avancerad\">A</span>",
+        "minLevelNumeric": 33,
+        "minParticipants": 12,
+        "maxParticipants": 28
+      },
+      "instructorsName": "Marcus och Lana",
+      "staff": {
+        "hiddenStaff": {
+          "person": {
+            "id": 282665,
+            "key": "arFDROaXqDjtIHOcMaziP1Gp",
+            "name": "Marcus Andersson",
+            "nickname": ""
+          }
+        }
+      },
+      "longdescription": "<p>V&auml;lkomna till Bachata partnerwork workshop p&aring; Avancerad niv&aring;! Denna workshop &auml;r p&aring; niv&aring; 4, det mest sv&aring;ra p&aring; skala 1-4 ( Beginners, Improvers, Intermediate, Advanced).</p>\r\n\r\n<p>Passar dig som har gedigen dansvana, g&aring;tt kurser och socialdansar ofta och mycket.</p>\r\n\r\n<p>Vi kommer&nbsp;att g&aring; igenom turer och tekniker som &auml;r g&aring;r att anv&auml;nda socialt med framf&ouml;rallt mycket vana dansare. Det kommer att vara f&ouml;ra/f&ouml;lja-intensivt, med mycket finlir.&nbsp;</p>\r\n\r\n<p>En timme egen tr&auml;ning efter workshopen ing&aring;r i priset.</p>\r\n\r\n<p>-------------</p>\r\n\r\n<p>English&nbsp;</p>\r\n\r\n<p>This level is a real hard one, no mercy.&nbsp;</p>\r\n\r\n<p>One hour of free dance/training after workshop is included in the price.&nbsp;</p>"
+    },
+    {
+      "id": 211894,
+      "key": "3kFkoUKPb3OsBLL36JQAmyCn",
+      "code": "VT24-BACHATA-SOCIAL-2",
+      "uid": "211894.event@cogwork.se",
+      "source": "https://dans.se/event/211894",
+      "name": "Bachata-Salsa-Kizomba Social Club",
+      "created": "2024-02-07 14:20:07",
+      "creator": {
+        "id": "66551",
+        "key": "NWmuHRISOE0epLzmd0Bfy9pP",
+        "name": "Svetlana Löfstrand"
+      },
+      "category": {
+        "id": 1,
+        "name": ""
+      },
+      "place": "Sankt Larsgatan 3, ingång från Järnvägsgatan",
+      "pricing": {
+        "currency": "SEK",
+        "basePriceInclVat": 100
+      },
+      "registration": {
+        "status": "ONLY_INFO",
+        "showing": true,
+        "open": false,
+        "url": "https://dans.se/dansarna/shop/new?event=211894",
+        "statusName": "Info",
+        "statusText": "Endast info",
+        "periods": {
+          "startShowing": "2024-01-27 00:00:00",
+          "stopShowing": "2024-03-01 00:00:00"
+        }
+      },
+      "schedule": {
+        "dayAndTimeInfo": "Lör 20.00-23.00",
+        "start": {
+          "date": "2024-02-24",
+          "time": "20:00:00",
+          "dayOfWeek": "6"
+        },
+        "end": {
+          "date": "2024-02-24",
+          "time": "23:00:00",
+          "dayOfWeek": "6"
+        },
+        "numberOfPlannedOccasions": 1,
+        "numberOfScheduledOccasions": 0
+      },
+      "statistics": {
+        "instructors": 1,
+        "staff": 1
+      },
+      "grouping": {
+        "eventBlock": {
+          "key": "95Wuhb8rFIH0foOzLPtaZLps",
+          "id": 14474,
+          "name": "Vårterminen 2024"
+        },
+        "primaryEventGroup": {
+          "key": "hsMTpSHrlv9xfuOmGct7tmfc",
+          "id": 7899,
+          "name": "Bachata"
+        }
+      },
+      "categories": [
+        {
+          "id": 1,
+          "code": "NONE",
+          "name": ""
+        }
+      ],
+      "requirements": {
+        "minAge": 18
+      },
+      "instructorsName": "Patrik",
+      "staff": {
+        "hiddenStaff": {
+          "person": {
+            "id": 66551,
+            "key": "NWmuHRISOE0epLzmd0Bfy9pP",
+            "name": "Svetlana Löfstrand",
+            "nickname": "Lana"
+          }
+        }
+      },
+      "longdescription": "<p>V&auml;lkomna till Bachata-Salsa-Kizomba Social Club - b&aring;de ni som g&aring;r kurser hos Dansarna.se och ni som bara gillar dansa socialt!</p>\r\n\r\n<p>H&auml;r tr&auml;ffas dansglada m&auml;nniskor - vana som nyb&ouml;rjare - f&ouml;r att sl&auml;ppa loss p&aring; dansgolvet och umg&aring;s. Det blir tv&aring; dansgolv - ett&nbsp;f&ouml;r Bachata och ett&nbsp;f&ouml;r Salsa &amp; Kizomba.&nbsp;Betalas p&aring; plats, 100 kr&nbsp;i kontanter eller (helst) via Swish. Dansarna.se Swish-nummer &auml;r 123 538 37 16</p>\r\n\r\n<p>Drop-in, ingen f&ouml;ranm&auml;lan beh&ouml;vs. Observera att inga ytterskor &auml;r till&aring;tna i lokalen. Ta med vattenflaska! Vi h&aring;ller till i Dansarnas nya dansstudio p&aring; Sankt Larsgatan 3.</p>\r\n\r\n<p><strong>VIKTIGT! Ing&aring;ng fr&aring;n J&auml;rnv&auml;gsgatan! (<a href=\"https://maps.app.goo.gl/QfaKmGsEHiUjwDhB9\">tryck h&auml;r f&ouml;r kartn&aring;l</a>)</strong></p>"
+    },
+    {
+      "id": 209408,
+      "key": "pr11mvjt0VZ5fe3jyfSXADeX",
+      "code": "VT24-BACH-4",
+      "uid": "209408.event@cogwork.se",
+      "source": "https://dans.se/event/209408",
+      "name": "Bachata Fortsättning",
+      "created": "2023-12-23 16:15:38",
+      "creator": {
+        "id": "66551",
+        "key": "NWmuHRISOE0epLzmd0Bfy9pP",
+        "name": "Svetlana Löfstrand"
+      },
+      "category": {
+        "id": 1,
+        "name": ""
+      },
+      "place": "St Larsgatan 3",
+      "pricing": {
+        "currency": "SEK",
+        "basePriceInclVat": 1650
+      },
+      "registration": {
+        "status": "DIRECT",
+        "showing": true,
+        "open": true,
+        "url": "https://dans.se/dansarna/shop/new?event=209408",
+        "statusName": "Direkt",
+        "statusText": "Direktanmälan",
+        "periods": {
+          "startShowing": "2023-12-28 00:00:00",
+          "startDirectReg": "2023-12-30 00:00:00",
+          "closeReg": "2024-03-15 00:00:00",
+          "stopShowing": "2024-05-31 00:00:00"
+        }
+      },
+      "schedule": {
+        "dayAndTimeInfo": "Tors 18.00-19.30",
+        "start": {
+          "date": "2024-03-07",
+          "time": "18:00:00",
+          "dayOfWeek": "4"
+        },
+        "end": {
+          "date": "2024-05-09",
+          "time": "19:30:00",
+          "dayOfWeek": "4"
+        },
+        "numberOfPlannedOccasions": 10,
+        "numberOfScheduledOccasions": 10,
+        "occasions": [
+          {
+            "length": 5400,
+            "startDateTime": "2024-03-07 18:00:00",
+            "startDayOfWeek": "4",
+            "endDateTime": "2024-03-07 19:30:00"
+          },
+          {
+            "length": 5400,
+            "startDateTime": "2024-03-14 18:00:00",
+            "startDayOfWeek": "4",
+            "endDateTime": "2024-03-14 19:30:00"
+          },
+          {
+            "length": 5400,
+            "startDateTime": "2024-03-21 18:00:00",
+            "startDayOfWeek": "4",
+            "endDateTime": "2024-03-21 19:30:00"
+          },
+          {
+            "length": 5400,
+            "startDateTime": "2024-03-28 18:00:00",
+            "startDayOfWeek": "4",
+            "endDateTime": "2024-03-28 19:30:00"
+          },
+          {
+            "length": 5400,
+            "startDateTime": "2024-04-04 18:00:00",
+            "startDayOfWeek": "4",
+            "endDateTime": "2024-04-04 19:30:00"
+          },
+          {
+            "length": 5400,
+            "startDateTime": "2024-04-11 18:00:00",
+            "startDayOfWeek": "4",
+            "endDateTime": "2024-04-11 19:30:00"
+          },
+          {
+            "length": 5400,
+            "startDateTime": "2024-04-18 18:00:00",
+            "startDayOfWeek": "4",
+            "endDateTime": "2024-04-18 19:30:00"
+          },
+          {
+            "length": 5400,
+            "startDateTime": "2024-04-25 18:00:00",
+            "startDayOfWeek": "4",
+            "endDateTime": "2024-04-25 19:30:00"
+          },
+          {
+            "length": 5400,
+            "startDateTime": "2024-05-02 18:00:00",
+            "startDayOfWeek": "4",
+            "endDateTime": "2024-05-02 19:30:00"
+          },
+          {
+            "length": 5400,
+            "startDateTime": "2024-05-09 18:00:00",
+            "startDayOfWeek": "4",
+            "endDateTime": "2024-05-09 19:30:00"
+          }
+        ]
+      },
+      "statistics": {
+        "instructors": 2,
+        "accepted": 30,
+        "withDrawn": 2,
+        "leaders": 16,
+        "followers": 14,
+        "singleLeaders": 14,
+        "singleFollowers": 12,
+        "couples": 2,
+        "acceptedLeaders": 16,
+        "acceptedFollowers": 14,
+        "acceptedSingleLeaders": 14,
+        "acceptedSingleFollowers": 12,
+        "acceptedCouples": 2
+      },
+      "grouping": {
+        "eventBlock": {
+          "key": "95Wuhb8rFIH0foOzLPtaZLps",
+          "id": 14474,
+          "name": "Vårterminen 2024"
+        },
+        "primaryEventGroup": {
+          "key": "hsMTpSHrlv9xfuOmGct7tmfc",
+          "id": 7899,
+          "name": "Bachata"
+        }
+      },
+      "categories": [
+        {
+          "id": 1,
+          "code": "NONE",
+          "name": ""
+        }
+      ],
+      "requirements": {
+        "minAge": 18,
+        "levelShort": "<span title=\"Från Nybörjarmedel - Medel\">NM/M</span>",
+        "levelLong": "<span title=\"Från Nybörjarmedel - Medel\">NM/M</span>",
+        "minLevelNumeric": 18,
+        "minParticipants": 12,
+        "maxParticipants": 30
+      },
+      "instructorsName": "Marcus, Lana",
+      "staff": {
+        "hiddenStaff": {
+          "person": {
+            "id": 282665,
+            "key": "arFDROaXqDjtIHOcMaziP1Gp",
+            "name": "Marcus Andersson",
+            "nickname": ""
+          }
+        }
+      },
+      "longdescription": "<p>Denna kurs &auml;r p&aring; niv&aring; 2 och rekommenderas f&ouml;r de&nbsp;som har g&aring;tt nyb&ouml;rjarkurs i Bachata (ca 10-13 kurstimmar) och &auml;r hyfsat s&auml;kra p&aring; dansens grunder.<br />\r\nKursens inneh&aring;ll skiljer sig fr&aring;n h&ouml;stterminens forts&auml;ttningskurs, &auml;ven om den har samma sv&aring;righetsgrad. Nya moves utlovas!&nbsp;</p>\r\n\r\n<p>Man kan&nbsp;g&ouml;ra en ensamanm&auml;lan eller anm&auml;la sig i&nbsp;par.</p>\r\n\r\n<p>Kursen genomf&ouml;rs p&aring; svenska och/eller engelska beroende p&aring; deltagare.</p>\r\n\r\n<p>&Aring;ldersgr&auml;ns fr&aring;n 18 &aring;r med vissa undantag (exempelvis om f&ouml;r&auml;ldrar ocks&aring; deltar i kursen).</p>\r\n\r\n<p>Early bird-rabatt dras automatiskt.</p>\r\n\r\n<p>F&ouml;r studentrabatt, fyll i &quot;STUDENT&quot; i f&auml;ltet &quot;eventuell bokningskod&quot;.</p>\r\n\r\n<p>Notera att kurslokalen &auml;r p&aring; S:t Larsgatan 3 enligt kartan, men att entr&eacute;n &auml;r mot J&auml;rnv&auml;gsgatan (https://maps.app.goo.gl/QfaKmGsEHiUjwDhB9).</p>\r\n\r\n<p>---</p>\r\n\r\n<p>The requirement for this course is that you already know Bachata basics. This means you&#39;ve finished Bachata beginners (10-13 hours of Bachata lessons), or have equivalent experience of the dance. The course will be taught in Swedish and/or in English, depending on the participant&#39;s requests. You can sign-up as a dance couple or just as one person, without a partner.</p>\r\n\r\n<p>The course is for people 18+ years old, with some exceptions (e.g. if parents are also participating in the course).</p>\r\n\r\n<p>Please note that the entrance is here: https://maps.app.goo.gl/QfaKmGsEHiUjwDhB9</p>"
+    },
+    {
+      "id": 209409,
+      "key": "TdfFjJ3B6Sx9NTNlgHUecTPt",
+      "code": "VT24-BACH-5",
+      "uid": "209409.event@cogwork.se",
+      "source": "https://dans.se/event/209409",
+      "name": "Bachata Medel",
+      "created": "2023-12-23 16:20:38",
+      "creator": {
+        "id": "66551",
+        "key": "NWmuHRISOE0epLzmd0Bfy9pP",
+        "name": "Svetlana Löfstrand"
+      },
+      "category": {
+        "id": 1,
+        "name": ""
+      },
+      "place": "St Larsgatan 3",
+      "pricing": {
+        "currency": "SEK",
+        "basePriceInclVat": 1650
+      },
+      "registration": {
+        "status": "DIRECT",
+        "showing": true,
+        "open": true,
+        "url": "https://dans.se/dansarna/shop/new?event=209409",
+        "statusName": "Direkt",
+        "statusText": "Direktanmälan",
+        "periods": {
+          "startShowing": "2023-12-28 00:00:00",
+          "startDirectReg": "2023-12-30 00:00:00",
+          "startLateReg": "2024-03-15 00:00:00",
+          "stopShowing": "2024-05-31 00:00:00"
+        }
+      },
+      "schedule": {
+        "dayAndTimeInfo": "Tors 19.45-21.15",
+        "start": {
+          "date": "2024-03-07",
+          "time": "19:45:00",
+          "dayOfWeek": "4"
+        },
+        "end": {
+          "date": "2024-05-09",
+          "time": "21:15:00",
+          "dayOfWeek": "4"
+        },
+        "numberOfPlannedOccasions": 10,
+        "numberOfScheduledOccasions": 0
+      },
+      "statistics": {
+        "instructors": 2,
+        "accepted": 8,
+        "inQueue": 3,
+        "leaders": 4,
+        "followers": 7,
+        "singleLeaders": 2,
+        "singleFollowers": 5,
+        "couples": 2,
+        "acceptedLeaders": 4,
+        "acceptedFollowers": 4,
+        "acceptedSingleLeaders": 2,
+        "acceptedSingleFollowers": 2,
+        "acceptedCouples": 2
+      },
+      "grouping": {
+        "eventBlock": {
+          "key": "95Wuhb8rFIH0foOzLPtaZLps",
+          "id": 14474,
+          "name": "Vårterminen 2024"
+        },
+        "primaryEventGroup": {
+          "key": "hsMTpSHrlv9xfuOmGct7tmfc",
+          "id": 7899,
+          "name": "Bachata"
+        }
+      },
+      "categories": [
+        {
+          "id": 1,
+          "code": "NONE",
+          "name": ""
+        }
+      ],
+      "requirements": {
+        "minAge": 18,
+        "levelShort": "<span title=\"Från Medel\">M</span>",
+        "levelLong": "<span title=\"Från Medel\">M</span>",
+        "minLevelNumeric": 21,
+        "minParticipants": 12,
+        "maxParticipants": 30
+      },
+      "instructorsName": "Marcus, Lana",
+      "staff": {
+        "hiddenStaff": {
+          "person": {
+            "id": 282665,
+            "key": "arFDROaXqDjtIHOcMaziP1Gp",
+            "name": "Marcus Andersson",
+            "nickname": ""
+          }
+        }
+      },
+      "longdescription": "<p>Kursens sv&aring;righetsgrad &auml;r niv&aring; 3 och f&ouml;r att lyckas med inl&auml;rningen b&ouml;r du ha g&aring;tt forts&auml;ttningskursen (niv&aring; 2) minst en g&aring;ng, som inte ska ha k&auml;nts s&auml;rskilt utmanande. Du b&ouml;r dessutom ha dansat socialt en hel del. Ytterligare en f&ouml;ruts&auml;ttning &auml;r att du beh&auml;rskar grundl&auml;ggande body rolls och body waves.<br />\r\nKursen &auml;r ganska mycket sv&aring;rare &auml;n niv&aring; 2, inte enbart p&aring; grund av att teknikerna och turerna &auml;r lite sv&aring;rare, utan framf&ouml;rallt f&ouml;r att det &auml;r &quot;t&auml;tare&quot; inneh&aring;ll i turerna och slingorna, med mer &quot;finlir&quot; och styling. G&aring;r man den h&auml;r kursen rekommenderas det v&auml;ldigt starkt att man tar de chanser man kan f&aring; till att dansa socialt, f&ouml;r &ouml;vning kommer att beh&ouml;vas f&ouml;r de allra flesta.</p>\r\n\r\n<p>Vi har tv&aring; grundl&auml;ggande typer av lektioner p&aring; den h&auml;r kursen - tekniklektioner och slinglektioner.</p>\r\n\r\n<ul>\r\n\t<li>P&aring; tekniklektioner g&aring;s 2-4 st. tekniker eller turer igenom som sedan varieras p&aring; olika s&auml;tt. I slutet av varje tekniklektion brukar varje par f&aring; s&auml;tta ihop en egen slinga baserat p&aring; lektionens inneh&aring;ll och tidigare lektioners inneh&aring;ll, med s&aring; lite &quot;utfyllnad&quot; av grundsteg och basic turer som m&ouml;jligt. Syftet &auml;r att man ska f&aring; f&ouml;ra/f&ouml;lja-&ouml;vning,&nbsp;&ouml;va p&aring; improvisation och f&aring; m&auml;ngdtr&auml;ning.</li>\r\n\t<li>P&aring; slinglektioner presenteras en slinga som brukar vara 4-8&nbsp;&aring;ttor som vi&nbsp;g&aring;r igenom steg f&ouml;r steg och sedan finslipar. Syftet &auml;r att kursdeltagarna&nbsp;ska f&aring; en danskontext med eventuell musikanpassning samt f&aring; &ouml;va p&aring; &quot;flyt&quot;.</li>\r\n</ul>\r\n\r\n<p>Man kan&nbsp;g&ouml;ra en ensamanm&auml;lan eller anm&auml;la sig i par.</p>\r\n\r\n<p>Kursen genomf&ouml;rs p&aring; svenska och/eller engelska beroende p&aring; deltagare.</p>\r\n\r\n<p>&Aring;ldersgr&auml;ns fr&aring;n 18 &aring;r med vissa undantag.&nbsp;</p>\r\n\r\n<p>Early bird-rabatt dras automatiskt.</p>\r\n\r\n<p>F&ouml;r studentrabatt, fyll i &quot;STUDENT&quot; i f&auml;ltet &quot;eventuell bokningskod&quot;.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Notera att kurslokalen &auml;r p&aring; S:t Larsgatan 3 enligt kartan, men att entr&eacute;n &auml;r mot J&auml;rnv&auml;gsgatan (https://maps.app.goo.gl/QfaKmGsEHiUjwDhB9).</p>\r\n\r\n<p>---</p>\r\n\r\n<p>This course is level 3 and recommended for those&nbsp;who dance socially a lot and who have taken&nbsp;the Improvers course at least once. Another requirement is that you can do basic body rolls and body waves.</p>\r\n\r\n<p>The minimum age for course participants is 18 years.</p>\r\n\r\n<p>Please note that the entrance is here: https://maps.app.goo.gl/QfaKmGsEHiUjwDhB9</p>"
+    },
+    {
+      "id": 211878,
+      "key": "sTSd1r1fOaqpwFZzMO2u0Ucm",
+      "code": "VT24-BACH-6",
+      "uid": "211878.event@cogwork.se",
+      "source": "https://dans.se/event/211878",
+      "name": "Bachata Intensivkurs för Nybörjare",
+      "created": "2024-02-06 20:43:49",
+      "creator": {
+        "id": "66551",
+        "key": "NWmuHRISOE0epLzmd0Bfy9pP",
+        "name": "Svetlana Löfstrand"
+      },
+      "category": {
+        "id": 1,
+        "name": ""
+      },
+      "place": "S:t Larsgatan 3 (ingång från Järnvägsgatan)",
+      "pricing": {
+        "currency": "SEK",
+        "basePriceInclVat": 1350
+      },
+      "registration": {
+        "status": "DIRECT",
+        "showing": true,
+        "open": true,
+        "url": "https://dans.se/dansarna/shop/new?event=211878",
+        "statusName": "Direkt",
+        "statusText": "Direktanmälan",
+        "periods": {
+          "startShowing": "2023-02-06 00:00:00",
+          "startDirectReg": "2024-02-06 00:00:00",
+          "startLateReg": "2024-04-27 00:00:00",
+          "closeReg": "2024-04-29 00:00:00",
+          "stopShowing": "2024-04-30 00:00:00"
+        }
+      },
+      "schedule": {
+        "dayAndTimeInfo": "26/04 19:05-21:05, 27/04 11:00-13:00 och 14:00-16:00, 28/4 11:00-13:00 och 14:00-16:00",
+        "start": {
+          "date": "2024-04-26",
+          "time": "19:05:00",
+          "dayOfWeek": "5"
+        },
+        "end": {
+          "date": "2024-04-28",
+          "time": "21:00:00",
+          "dayOfWeek": "7"
+        },
+        "numberOfPlannedOccasions": 3,
+        "numberOfScheduledOccasions": 3,
+        "occasions": [
+          {
+            "length": 7200,
+            "startDateTime": "2024-04-26 19:05:00",
+            "startDayOfWeek": "5",
+            "endDateTime": "2024-04-26 21:05:00"
+          },
+          {
+            "length": 14400,
+            "startDateTime": "2024-04-27 11:00:00",
+            "startDayOfWeek": "6",
+            "endDateTime": "2024-04-27 15:00:00"
+          },
+          {
+            "length": 14400,
+            "startDateTime": "2024-04-28 11:00:00",
+            "startDayOfWeek": "7",
+            "endDateTime": "2024-04-28 15:00:00"
+          }
+        ]
+      },
+      "grouping": {
+        "eventBlock": {
+          "key": "95Wuhb8rFIH0foOzLPtaZLps",
+          "id": 14474,
+          "name": "Vårterminen 2024"
+        },
+        "primaryEventGroup": {
+          "key": "hsMTpSHrlv9xfuOmGct7tmfc",
+          "id": 7899,
+          "name": "Bachata"
+        }
+      },
+      "categories": [
+        {
+          "id": 1,
+          "code": "NONE",
+          "name": ""
+        }
+      ],
+      "requirements": {
+        "minAge": 18,
+        "levelShort": "<span title=\"Från Nybörjare\">N</span>",
+        "levelLong": "<span title=\"Från Nybörjare\">N</span>",
+        "minLevelNumeric": 9,
+        "minParticipants": 12,
+        "maxParticipants": 30
+      },
+      "instructorsName": "Ricki",
+      "longdescription": "<p>Det h&auml;r &auml;r en kurs f&ouml;r dig som vill l&auml;ra dig pardans, men som av n&aring;gon anledning inte vill&nbsp;eller inte kan g&aring; terminskurser. Har du dansat Bachata tidigare men vill fr&auml;scha upp grunderna, eller bara vill &ouml;va under lite mer organiserade former med v&auml;gledning fr&aring;n l&auml;rare, s&aring; &auml;r detta givetvis ett bra tillf&auml;lle.</p>\r\n\r\n<p>Inga f&ouml;rkunskaper kr&auml;vs och inget krav p&aring; parvis anm&auml;lan.</p>\r\n\r\n<p>Bachata kan dansas p&aring; m&aring;nga olika s&auml;tt, beroende p&aring; musikens karakt&auml;r, st&auml;mningen och kemin mellan de som dansar &ndash; fr&aring;n snabbt, &ouml;ppet och lekfullt, med tonvikt p&aring; snurrar, stegvariationer och rotationer s&aring;som i exempelvis Salsa och Bugg, till n&auml;ra och sensuellt, med tonvikt p&aring; kroppsr&ouml;relser och k&auml;nsla som i exempelvis Fox och Kizomba, och allt d&auml;remellan.</p>\r\n\r\n<p>Det finns m&aring;nga anledningar till att b&ouml;rja dansa. Det &auml;r bra fysisk tr&auml;ning (kondition, koordination och kroppskontroll, flexibilitet, med mera), men det &auml;r ocks&aring; bra f&ouml;r sinnena! Man f&aring;r vara social, tr&auml;ffa nya m&auml;nniskor, &ouml;va p&aring; samspel och kreativitet, och det &auml;r ocks&aring; underh&aring;llande!&nbsp;V&aring;ra danskurser &auml;r inte som att sitta i skolb&auml;nken och l&auml;ra sig enbart tekniska saker, utan det &auml;r mycket humor och &auml;ven en gnutta filosofi p&aring; v&aring;ra lektioner. M&aring;nga g&aring;r v&aring;ra kurser inte bara f&ouml;r dansen, utan f&ouml;r att &auml;ven&nbsp;f&ouml;rb&auml;ttra sina sociala f&ouml;rm&aring;gor&nbsp;och f&ouml;r att bli b&auml;ttre p&aring; att &quot;l&auml;sa av&quot; andra m&auml;nniskor.</p>\r\n\r\n<p>Under kursen kommer vi att g&aring; igenom:</p>\r\n\r\n<p>- Grundl&auml;ggande stegvariationer och stegteknik<br />\r\n- Grundl&auml;ggande f&ouml;r- och f&ouml;ljteknik<br />\r\n- Grundl&auml;ggande musiktolkning<br />\r\n- Fattningsbyten<br />\r\n- Grundl&auml;ggande turer med snurrar och rotationer<br />\r\n- Enklare slingor av turer med fattningsbyten och stegvariationer<br />\r\n- Grundl&auml;ggande etikett p&aring; dansgolvet och dansmentalitet</p>\r\n\r\n<p>Efter kursen kommer du ha en bra grund att bygga vidare p&aring;, och du kommer att ha tillr&auml;ckliga f&auml;rdigheter f&ouml;r att g&aring; ut och dansa Bachata socialt.</p>\r\n\r\n<p>Vi dansar 2 timmar p&aring; fredag, och 4-timmarspass&nbsp;p&aring; l&ouml;rdag och&nbsp;s&ouml;ndag, s&aring; totalt 10 timmar.&nbsp;</p>\r\n\r\n<p>Kursen genomf&ouml;rs p&aring; svenska och/eller engelska beroende p&aring; deltagare.</p>\r\n\r\n<p>&Aring;ldersgr&auml;ns fr&aring;n 18 &aring;r med vissa undantag.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>V&auml;nligen l&auml;s anm&auml;lningsvillkor noga!</strong></p>\r\n\r\n<p>Vid anm&auml;lan g&auml;ller 14 dagars &aring;ngerr&auml;tt.&nbsp;D&auml;refter &auml;r ni skyldiga att erl&auml;gga kursavgift &auml;ven om ni v&auml;ljer att hoppa av, oavsett anledning. St&auml;lls kursen in av Dansarna.se s&aring; sker &aring;terbetalning.&nbsp;</p>\r\n\r\n<p>F&ouml;r studentrabatt, fyll i &quot;STUDENT&quot; i f&auml;ltet &quot;eventuell bokningskod&quot;.</p>"
+    },
+    {
+      "id": 209407,
+      "key": "xQNyj9G9BO3isDHwclpkNBov",
+      "code": "VT24-BURL-1",
+      "uid": "209407.event@cogwork.se",
+      "source": "https://dans.se/event/209407",
+      "name": "Burlesque",
+      "created": "2023-12-23 15:53:41",
+      "creator": {
+        "id": "731349",
+        "key": "b6Njn2vzApJQ5J2bweNi8YVP",
+        "name": "Kristina Ferm"
+      },
+      "category": {
+        "id": 1,
+        "name": ""
+      },
+      "place": "St Larsgatan 3",
+      "pricing": {
+        "currency": "SEK",
+        "basePriceInclVat": 900
+      },
+      "registration": {
+        "status": "DIRECT",
+        "showing": true,
+        "open": true,
+        "url": "https://dans.se/dansarna/shop/new?event=209407",
+        "statusName": "Direkt",
+        "statusText": "Direktanmälan",
+        "periods": {
+          "startShowing": "2023-12-24 10:00:00",
+          "startDirectReg": "2023-12-24 10:00:00",
+          "closeReg": "2024-03-13 00:00:00",
+          "stopShowing": "2024-03-14 00:00:00"
+        }
+      },
+      "schedule": {
+        "dayAndTimeInfo": "Ons 17.30-18.45",
+        "start": {
+          "date": "2024-02-21",
+          "time": "17:30:00",
+          "dayOfWeek": "3"
+        },
+        "end": {
+          "date": "2024-03-27",
+          "time": "18:45:00",
+          "dayOfWeek": "3"
+        },
+        "numberOfPlannedOccasions": 6,
+        "numberOfScheduledOccasions": 6,
+        "occasions": [
+          {
+            "length": 4500,
+            "startDateTime": "2024-02-21 17:30:00",
+            "startDayOfWeek": "3",
+            "endDateTime": "2024-02-21 18:45:00"
+          },
+          {
+            "length": 4500,
+            "startDateTime": "2024-02-28 17:30:00",
+            "startDayOfWeek": "3",
+            "endDateTime": "2024-02-28 18:45:00"
+          },
+          {
+            "length": 4500,
+            "startDateTime": "2024-03-06 17:30:00",
+            "startDayOfWeek": "3",
+            "endDateTime": "2024-03-06 18:45:00"
+          },
+          {
+            "length": 4500,
+            "startDateTime": "2024-03-13 17:30:00",
+            "startDayOfWeek": "3",
+            "endDateTime": "2024-03-13 18:45:00"
+          },
+          {
+            "length": 4500,
+            "startDateTime": "2024-03-20 17:30:00",
+            "startDayOfWeek": "3",
+            "endDateTime": "2024-03-20 18:45:00"
+          },
+          {
+            "length": 4500,
+            "startDateTime": "2024-03-27 17:30:00",
+            "startDayOfWeek": "3",
+            "endDateTime": "2024-03-27 18:45:00"
+          }
+        ]
+      },
+      "statistics": {
+        "instructors": 1,
+        "accepted": 14,
+        "withDrawn": 3
+      },
+      "grouping": {
+        "eventBlock": {
+          "key": "95Wuhb8rFIH0foOzLPtaZLps",
+          "id": 14474,
+          "name": "Vårterminen 2024"
+        },
+        "primaryEventGroup": {
+          "key": "3yk1aWaV4LrAnd034PiPtSzx",
+          "id": 7900,
+          "name": "Burlesque"
+        }
+      },
+      "categories": [
+        {
+          "id": 1,
+          "code": "NONE",
+          "name": ""
+        }
+      ],
+      "requirements": {
+        "minAge": 18,
+        "levelShort": "<span title=\"Från Nybörjare 2\">N/NM</span>",
+        "levelLong": "<span title=\"Från Nybörjare 2\">N/NM</span>",
+        "minLevelNumeric": 12,
+        "minParticipants": 1,
+        "maxParticipants": 16
+      },
+      "instructorsName": "Kristina",
+      "staff": {
+        "hiddenStaff": {
+          "person": {
+            "id": 731349,
+            "key": "b6Njn2vzApJQ5J2bweNi8YVP",
+            "name": "Kristina Ferm",
+            "nickname": "",
+            "thumb": "https://static.cogwork.se/thumbs/portrait/100022719.jpg"
+          }
+        }
+      },
+      "longdescription": "<p>Burlesque &auml;r en sensuell dans med lekfullt inslag och mycket rum f&ouml;r personlig tolkning.<br />\r\n<br />\r\nSensuell, sexig och humoristisk! Burlesquen l&auml;r dig t&auml;nja p&aring; gr&auml;nserna, v&aring;ga mer och bli bekv&auml;m i dig sj&auml;lv och din kropp men framf&ouml;rallt bjuder den p&aring; m&aring;nga h&auml;rliga skratt!<br />\r\n<br />\r\nNiv&aring;n p&aring; kursen &auml;r fr&aring;n nyb&ouml;rjare som uppt&auml;cker burlesque f&ouml;r f&ouml;rsta g&aring;ngen till mer erfarna dansare som d&aring; ist&auml;llet kan fokusera p&aring; att utveckla sitt uttryck och slipa p&aring; detaljerna. Dansa med olika rekvisita som till exempel boa eller hatt, och uppt&auml;ck hur de kan anv&auml;ndas f&ouml;r att f&ouml;rst&auml;rka burlesquens teasiga element.<br />\r\n<br />\r\nKursen h&aring;lls av Kristina fr&aring;n showgruppen Femme Fusion. Den planeras att h&aring;llas p&aring; svenska, men kan &auml;ven h&aring;llas p&aring; engelska.<br />\r\n&nbsp;<br />\r\nHar du dansat med Kristina tidigare kan det h&auml;nda att du k&auml;nner igen delar av inneh&aring;llet i kursen.<br />\r\n&nbsp;</p>"
+    },
+    {
+      "id": 211906,
+      "key": "TTKrpRHT21ERNEsnnMWy0U8b",
+      "code": "VT24-BURL-3",
+      "uid": "211906.event@cogwork.se",
+      "source": "https://dans.se/event/211906",
+      "name": "Burlesque Mix",
+      "created": "2024-02-07 21:38:03",
+      "creator": {
+        "id": "66551",
+        "key": "NWmuHRISOE0epLzmd0Bfy9pP",
+        "name": "Svetlana Löfstrand"
+      },
+      "category": {
+        "id": 1,
+        "name": ""
+      },
+      "place": "St Larsgatan 3",
+      "pricing": {
+        "currency": "SEK",
+        "basePriceInclVat": 900
+      },
+      "registration": {
+        "status": "DIRECT",
+        "showing": true,
+        "open": true,
+        "url": "https://dans.se/dansarna/shop/new?event=211906",
+        "statusName": "Direkt",
+        "statusText": "Direktanmälan",
+        "periods": {
+          "startShowing": "2024-02-16 00:00:00",
+          "startDirectReg": "2024-02-16 00:00:00",
+          "startLateReg": "2024-05-14 00:00:00",
+          "closeReg": "2024-05-31 00:00:00",
+          "stopShowing": "2024-06-01 00:00:00"
+        }
+      },
+      "schedule": {
+        "dayAndTimeInfo": "måndagar och torsdagar 18:15-19:30",
+        "start": {
+          "date": "2024-05-13",
+          "time": "18:15:00",
+          "dayOfWeek": "1"
+        },
+        "end": {
+          "date": "2024-05-30",
+          "time": "19:30:00",
+          "dayOfWeek": "4"
+        },
+        "numberOfPlannedOccasions": 6,
+        "numberOfScheduledOccasions": 6,
+        "occasions": [
+          {
+            "length": 4500,
+            "startDateTime": "2024-01-08 18:15:00",
+            "startDayOfWeek": "1",
+            "endDateTime": "2024-01-08 19:30:00"
+          },
+          {
+            "length": 4500,
+            "startDateTime": "2024-01-22 18:15:00",
+            "startDayOfWeek": "1",
+            "endDateTime": "2024-01-22 19:30:00"
+          },
+          {
+            "length": 4500,
+            "startDateTime": "2024-02-05 18:15:00",
+            "startDayOfWeek": "1",
+            "endDateTime": "2024-02-05 19:30:00"
+          },
+          {
+            "length": 4500,
+            "startDateTime": "2024-05-16 18:15:00",
+            "startDayOfWeek": "4",
+            "endDateTime": "2024-05-16 19:30:00"
+          },
+          {
+            "length": 4500,
+            "startDateTime": "2024-05-23 18:15:00",
+            "startDayOfWeek": "4",
+            "endDateTime": "2024-05-23 19:30:00"
+          },
+          {
+            "length": 4500,
+            "startDateTime": "2024-05-30 18:15:00",
+            "startDayOfWeek": "4",
+            "endDateTime": "2024-05-30 19:30:00"
+          }
+        ]
+      },
+      "grouping": {
+        "eventBlock": {
+          "key": "95Wuhb8rFIH0foOzLPtaZLps",
+          "id": 14474,
+          "name": "Vårterminen 2024"
+        },
+        "primaryEventGroup": {
+          "key": "3yk1aWaV4LrAnd034PiPtSzx",
+          "id": 7900,
+          "name": "Burlesque"
+        }
+      },
+      "categories": [
+        {
+          "id": 1,
+          "code": "NONE",
+          "name": ""
+        }
+      ],
+      "requirements": {
+        "minAge": 18,
+        "levelShort": "<span title=\"Från Nybörjare\">N</span>",
+        "levelLong": "<span title=\"Från Nybörjare\">N</span>",
+        "minLevelNumeric": 9,
+        "minParticipants": 12,
+        "maxParticipants": 16
+      },
+      "longdescription": "<p>Burlesque &auml;r en sensuell och feminin dansstil med mycket rum f&ouml;r personlig tolkning och egen flare. Sensuellt, sexigt och humoristiskt, burlesquen lovar en rej&auml;l confidence boost och mycket skratt.</p>\r\n\r\n<p>Oavsett om du har dansat lite innan eller anser dig ha&nbsp;tv&aring; v&auml;nsterf&ouml;tter &auml;r den h&auml;r nyb&ouml;rjarkursen f&ouml;r dig. I kursen f&aring;r du testa flera olika element fr&aring;n burlesquen genom korta koreografier med enkla steg som passar burlesquenovisen. Du beh&ouml;ver inte ha n&aring;gon tidigare danserfarenhet och instrukt&ouml;rer hj&auml;lper dig att locka fram din sensuella sida i en trygg och st&ouml;ttande milj&ouml; tillsammans&nbsp;med andra dansglada!</p>\r\n\r\n<p>Kursens leds av instrukt&ouml;rer Lana, Jamie, Lisa, Henrietta, Mika&nbsp;och Ingrid fr&aring;n dansgruppen The Coursettes&nbsp;och planeras att&nbsp;h&aring;llas p&aring; svenska,&nbsp;men kan &auml;ves h&aring;llas p&aring; engelska eller b&aring;de och om det skulle beh&ouml;vas. Varje instrukt&ouml;r kommer krydda dansen med personlig vibe, s&aring; d&auml;rf&ouml;r blir det en h&auml;rlig Burlesque mix!&nbsp;Varje tillf&auml;lle leds av en ny instrukt&ouml;r och vi l&auml;r oss en ny koreografi&nbsp;samt g&ouml;r en kort repetition av dansen fr&aring;n f&ouml;reg&aring;ende pass.&nbsp;</p>\r\n\r\n<p>Vi tr&auml;nar 2 ggr per vecka - m&aring;ndagar och torsdagar, totalt 6&nbsp;lektioner.</p>\r\n\r\n<p>&nbsp;</p>"
+    },
+    {
+      "id": 209630,
+      "key": "Xk4u4GN2SgIMW5ZIEwtLV0iz",
+      "code": "VT24-DHAL-1",
+      "uid": "209630.event@cogwork.se",
+      "source": "https://dans.se/event/209630",
+      "name": "Dancehall & Afrobeats",
+      "created": "2023-12-30 09:32:39",
+      "creator": {
+        "id": "369127",
+        "key": "7R7Z5SLmteYZilT8JwVeMFTh",
+        "name": "Raha Omrani"
+      },
+      "category": {
+        "id": 1,
+        "name": ""
+      },
+      "place": "St Larsgatan 3",
+      "pricing": {
+        "currency": "SEK",
+        "basePriceInclVat": 1100
+      },
+      "registration": {
+        "status": "DIRECT",
+        "showing": true,
+        "open": true,
+        "url": "https://dans.se/dansarna/shop/new?event=209630",
+        "statusName": "Direkt",
+        "statusText": "Direktanmälan",
+        "periods": {
+          "startShowing": "2023-12-30 00:00:00",
+          "startInterestReg": "2023-12-30 00:00:00",
+          "startDirectReg": "2023-12-30 00:00:00",
+          "closeReg": "2024-05-15 00:00:00"
+        }
+      },
+      "schedule": {
+        "dayAndTimeInfo": "Ons 19.00-20.00",
+        "start": {
+          "date": "2024-02-21",
+          "time": "19:00:00",
+          "dayOfWeek": "3"
+        },
+        "end": {
+          "date": "2024-04-24",
+          "time": "20:00:00",
+          "dayOfWeek": "3"
+        },
+        "numberOfPlannedOccasions": 10,
+        "numberOfScheduledOccasions": 10,
+        "occasions": [
+          {
+            "length": 3600,
+            "startDateTime": "2024-02-21 19:00:00",
+            "startDayOfWeek": "3",
+            "endDateTime": "2024-02-21 20:00:00"
+          },
+          {
+            "length": 3600,
+            "startDateTime": "2024-02-28 19:00:00",
+            "startDayOfWeek": "3",
+            "endDateTime": "2024-02-28 20:00:00"
+          },
+          {
+            "length": 3600,
+            "startDateTime": "2024-03-06 19:00:00",
+            "startDayOfWeek": "3",
+            "endDateTime": "2024-03-06 20:00:00"
+          },
+          {
+            "length": 3600,
+            "startDateTime": "2024-03-13 19:00:00",
+            "startDayOfWeek": "3",
+            "endDateTime": "2024-03-13 20:00:00"
+          },
+          {
+            "length": 3600,
+            "startDateTime": "2024-03-20 19:00:00",
+            "startDayOfWeek": "3",
+            "endDateTime": "2024-03-20 20:00:00"
+          },
+          {
+            "length": 3600,
+            "startDateTime": "2024-03-27 19:00:00",
+            "startDayOfWeek": "3",
+            "endDateTime": "2024-03-27 20:00:00"
+          },
+          {
+            "length": 3600,
+            "startDateTime": "2024-04-03 19:00:00",
+            "startDayOfWeek": "3",
+            "endDateTime": "2024-04-03 20:00:00"
+          },
+          {
+            "length": 3600,
+            "startDateTime": "2024-04-10 19:00:00",
+            "startDayOfWeek": "3",
+            "endDateTime": "2024-04-10 20:00:00"
+          },
+          {
+            "length": 3600,
+            "startDateTime": "2024-04-17 19:00:00",
+            "startDayOfWeek": "3",
+            "endDateTime": "2024-04-17 20:00:00"
+          },
+          {
+            "length": 3600,
+            "startDateTime": "2024-04-24 19:00:00",
+            "startDayOfWeek": "3",
+            "endDateTime": "2024-04-24 20:00:00"
+          }
+        ]
+      },
+      "statistics": {
+        "instructors": 1,
+        "accepted": 9
+      },
+      "grouping": {
+        "eventBlock": {
+          "key": "95Wuhb8rFIH0foOzLPtaZLps",
+          "id": 14474,
+          "name": "Vårterminen 2024"
+        },
+        "primaryEventGroup": {
+          "key": "ktNvJXD5vkeOpCFVwfHir1ut",
+          "id": 7975,
+          "name": "Dancehall"
+        }
+      },
+      "categories": [
+        {
+          "id": 1,
+          "code": "NONE",
+          "name": ""
+        }
+      ],
+      "requirements": {
+        "minAge": 16,
+        "levelShort": "<span title=\"Från Nybörjare\">N</span>",
+        "levelLong": "<span title=\"Från Nybörjare\">N</span>",
+        "minLevelNumeric": 9,
+        "minParticipants": 10,
+        "maxParticipants": 20
+      },
+      "instructorsName": "Raha",
+      "staff": {
+        "hiddenStaff": {
+          "person": {
+            "id": 369127,
+            "key": "7R7Z5SLmteYZilT8JwVeMFTh",
+            "name": "Raha Omrani",
+            "nickname": ""
+          }
+        }
+      },
+      "longdescription": "<p>Welcome to a course in Dancehall and&nbsp;Afrobeats!</p>\r\n\r\n<p>In this course, you are going to learn both Dancehall and Afrobeats steps.&nbsp;In this mix&nbsp;you&#39;ll get deep: you&#39;ll learn about the spiritual meaning behind the steps, get technical with the moves, and learn multiple variations for one step as well as a final step sequence.&nbsp;</p>\r\n\r\n<p>Dancehall is a genre of Jamaican popular music that originated in the late 1970s. The popularity of Dancehall has spawned dance moves that help to make parties and stage performances more energetic. Many dance moves seen in Hip-hop videos are variations of Dancehall dances. The dance is mainly developed in Jamaica in the street parties where the latest rhythms are played. The dance is a mix of different club steps with influences from African dance, Hip-hop, and Latin dance, and in addition, every person puts their flavor into it.</p>\r\n\r\n<p>Afrobeats&nbsp;dance is a diverse and fascinating style originating predominantly form Sub-Saharan Africa. It is an evolution from traditional African dance styles following the creation of Afrobeats music. In fact, the dance was developed as a response to the genre&rsquo;s incredibly energetic and upbeat rhythm. Artists like Davido, Mr Eazi, Diamond platinumz and Heavy K have not only created the sound that goes along with this exciting dance style, but have created memorable dance trends as well.</p>\r\n\r\n<p>Don&#39;t worry about your level, every level is welcome.&nbsp;</p>\r\n\r\n<p>&nbsp;</p>"
+    },
+    {
+      "id": 209410,
+      "key": "SgxiK7WWafpYZztDqUqd5d8w",
+      "code": "VT24-FEMV-1",
+      "uid": "209410.event@cogwork.se",
+      "source": "https://dans.se/event/209410",
+      "name": "Femme Fusion",
+      "created": "2023-12-23 18:42:22",
+      "creator": {
+        "id": "731349",
+        "key": "b6Njn2vzApJQ5J2bweNi8YVP",
+        "name": "Kristina Ferm"
+      },
+      "category": {
+        "id": 1,
+        "name": ""
+      },
+      "place": "St Larsgatan 3",
+      "pricing": {
+        "currency": "SEK",
+        "basePriceInclVat": 900
+      },
+      "registration": {
+        "status": "DIRECT",
+        "showing": true,
+        "open": true,
+        "url": "https://dans.se/dansarna/shop/new?event=209410",
+        "statusName": "Direkt",
+        "statusText": "Direktanmälan",
+        "periods": {
+          "startShowing": "2023-12-24 10:00:00",
+          "startDirectReg": "2023-12-24 10:00:00",
+          "closeReg": "2024-05-01 00:00:00",
+          "stopShowing": "2024-05-02 00:00:00"
+        }
+      },
+      "schedule": {
+        "dayAndTimeInfo": "Ons 17.30-18.45",
+        "start": {
+          "date": "2024-04-03",
+          "time": "17:30:00",
+          "dayOfWeek": "3"
+        },
+        "end": {
+          "date": "2024-05-08",
+          "time": "18:45:00",
+          "dayOfWeek": "3"
+        },
+        "numberOfPlannedOccasions": 6,
+        "numberOfScheduledOccasions": 6,
+        "occasions": [
+          {
+            "length": 4500,
+            "startDateTime": "2024-04-03 17:30:00",
+            "startDayOfWeek": "3",
+            "endDateTime": "2024-04-03 18:45:00"
+          },
+          {
+            "length": 4500,
+            "startDateTime": "2024-04-10 17:30:00",
+            "startDayOfWeek": "3",
+            "endDateTime": "2024-04-10 18:45:00"
+          },
+          {
+            "length": 4500,
+            "startDateTime": "2024-04-17 17:30:00",
+            "startDayOfWeek": "3",
+            "endDateTime": "2024-04-17 18:45:00"
+          },
+          {
+            "length": 4500,
+            "startDateTime": "2024-04-24 17:30:00",
+            "startDayOfWeek": "3",
+            "endDateTime": "2024-04-24 18:45:00"
+          },
+          {
+            "length": 4500,
+            "startDateTime": "2024-05-01 17:30:00",
+            "startDayOfWeek": "3",
+            "endDateTime": "2024-05-01 18:45:00"
+          },
+          {
+            "length": 4500,
+            "startDateTime": "2024-05-08 17:30:00",
+            "startDayOfWeek": "3",
+            "endDateTime": "2024-05-08 18:45:00"
+          }
+        ]
+      },
+      "statistics": {
+        "instructors": 1,
+        "accepted": 9
+      },
+      "grouping": {
+        "eventBlock": {
+          "key": "95Wuhb8rFIH0foOzLPtaZLps",
+          "id": 14474,
+          "name": "Vårterminen 2024"
+        },
+        "primaryEventGroup": {
+          "key": "LaxLD9nOwI34j2xtkeTuQn2F",
+          "id": 7980,
+          "name": "Feminine Vibe"
+        }
+      },
+      "categories": [
+        {
+          "id": 1,
+          "code": "NONE",
+          "name": ""
+        }
+      ],
+      "requirements": {
+        "minAge": 18,
+        "levelShort": "<span title=\"Från Medel\">M</span>",
+        "levelLong": "<span title=\"Från Medel\">M</span>",
+        "minLevelNumeric": 21,
+        "minParticipants": 1,
+        "maxParticipants": 18
+      },
+      "instructorsName": "Kristina",
+      "staff": {
+        "hiddenStaff": {
+          "person": {
+            "id": 731349,
+            "key": "b6Njn2vzApJQ5J2bweNi8YVP",
+            "name": "Kristina Ferm",
+            "nickname": "",
+            "thumb": "https://static.cogwork.se/thumbs/portrait/100022719.jpg"
+          }
+        }
+      },
+      "longdescription": "<p>Vad f&aring;r man om man mixar burlesque och feminine vibe? Femme fusion! I den h&auml;r kursen tar vi det b&auml;sta av tv&aring; v&auml;rldar. Feminint, kaxigt och med glimten i &ouml;gat. Ibland med rekvisita, ibland inte.<br />\r\n<br />\r\nKursen h&aring;lls av Kristina fr&aring;n showgruppen Femme Fusion. Den planeras att h&aring;llas p&aring; svenska, men kan &auml;ven h&aring;llas p&aring; engelska.<br />\r\n<br />\r\nHar du dansat med Kristina tidigare kan det h&auml;nda att du k&auml;nner igen delar av inneh&aring;llet i kursen.</p>"
+    },
+    {
+      "id": 209629,
+      "key": "3JAvS4azFhvFZ6opct57oQ1m",
+      "code": "VT24-REGG-1",
+      "uid": "209629.event@cogwork.se",
+      "source": "https://dans.se/event/209629",
+      "name": "Reggaeton for Everybody",
+      "created": "2023-12-30 09:17:01",
+      "creator": {
+        "id": "369127",
+        "key": "7R7Z5SLmteYZilT8JwVeMFTh",
+        "name": "Raha Omrani"
+      },
+      "category": {
+        "id": 1,
+        "name": ""
+      },
+      "place": "St Larsgatan 3",
+      "pricing": {
+        "currency": "SEK",
+        "basePriceInclVat": 1100
+      },
+      "registration": {
+        "status": "DIRECT",
+        "showing": true,
+        "open": true,
+        "url": "https://dans.se/dansarna/shop/new?event=209629",
+        "statusName": "Direkt",
+        "statusText": "Direktanmälan",
+        "periods": {
+          "startShowing": "2023-12-30 00:00:00",
+          "startInterestReg": "2023-12-30 00:00:00",
+          "startDirectReg": "2023-12-30 00:00:00",
+          "closeReg": "2024-03-11 00:00:00",
+          "stopShowing": "2024-05-15 00:00:00"
+        }
+      },
+      "schedule": {
+        "dayAndTimeInfo": "Mån 17.30-18.30",
+        "start": {
+          "date": "2024-02-19",
+          "time": "17:30:00",
+          "dayOfWeek": "1"
+        },
+        "end": {
+          "date": "2024-04-22",
+          "time": "18:30:00",
+          "dayOfWeek": "1"
+        },
+        "numberOfPlannedOccasions": 10,
+        "numberOfScheduledOccasions": 10,
+        "occasions": [
+          {
+            "length": 3600,
+            "startDateTime": "2024-02-19 17:30:00",
+            "startDayOfWeek": "1",
+            "endDateTime": "2024-02-19 18:30:00"
+          },
+          {
+            "length": 3600,
+            "startDateTime": "2024-02-26 17:30:00",
+            "startDayOfWeek": "1",
+            "endDateTime": "2024-02-26 18:30:00"
+          },
+          {
+            "length": 3600,
+            "startDateTime": "2024-03-04 17:30:00",
+            "startDayOfWeek": "1",
+            "endDateTime": "2024-03-04 18:30:00"
+          },
+          {
+            "length": 3600,
+            "startDateTime": "2024-03-11 17:30:00",
+            "startDayOfWeek": "1",
+            "endDateTime": "2024-03-11 18:30:00"
+          },
+          {
+            "length": 3600,
+            "startDateTime": "2024-03-18 17:30:00",
+            "startDayOfWeek": "1",
+            "endDateTime": "2024-03-18 18:30:00"
+          },
+          {
+            "length": 3600,
+            "startDateTime": "2024-03-25 17:30:00",
+            "startDayOfWeek": "1",
+            "endDateTime": "2024-03-25 18:30:00"
+          },
+          {
+            "length": 3600,
+            "startDateTime": "2024-04-01 17:30:00",
+            "startDayOfWeek": "1",
+            "endDateTime": "2024-04-01 18:30:00"
+          },
+          {
+            "length": 3600,
+            "startDateTime": "2024-04-08 17:30:00",
+            "startDayOfWeek": "1",
+            "endDateTime": "2024-04-08 18:30:00"
+          },
+          {
+            "length": 3600,
+            "startDateTime": "2024-04-15 17:30:00",
+            "startDayOfWeek": "1",
+            "endDateTime": "2024-04-15 18:30:00"
+          },
+          {
+            "length": 3600,
+            "startDateTime": "2024-04-22 17:30:00",
+            "startDayOfWeek": "1",
+            "endDateTime": "2024-04-22 18:30:00"
+          }
+        ]
+      },
+      "statistics": {
+        "instructors": 1,
+        "accepted": 4
+      },
+      "grouping": {
+        "eventBlock": {
+          "key": "95Wuhb8rFIH0foOzLPtaZLps",
+          "id": 14474,
+          "name": "Vårterminen 2024"
+        },
+        "primaryEventGroup": {
+          "key": "vhAPaJemx2V7W283hsslcDW0",
+          "id": 7976,
+          "name": "Reggaeton"
+        }
+      },
+      "categories": [
+        {
+          "id": 1,
+          "code": "NONE",
+          "name": ""
+        }
+      ],
+      "requirements": {
+        "minAge": 16,
+        "levelShort": "<span title=\"Från Nybörjare\">N</span>",
+        "levelLong": "<span title=\"Från Nybörjare\">N</span>",
+        "minLevelNumeric": 9,
+        "minParticipants": 12,
+        "maxParticipants": 20
+      },
+      "instructorsName": "Raha",
+      "staff": {
+        "hiddenStaff": {
+          "person": {
+            "id": 369127,
+            "key": "7R7Z5SLmteYZilT8JwVeMFTh",
+            "name": "Raha Omrani",
+            "nickname": ""
+          }
+        }
+      },
+      "longdescription": "<p>If you have a little experience in dance styles such as Dancehall, Reggaeton, Afrobeat, Hip-hop,Jazz, etc,.. or even if you don&#39;t have any experiene,&nbsp;this course will still bring you joy!&nbsp;You will learn how&nbsp;to shake, pop and twerk,&nbsp;while you will be having heaps of fun and working up to a sweat.<br />\r\n<br />\r\nIn this course, you learn how to develop your body control, techniques and how to&nbsp;use tips and tricks for creating your own choreography. Besides, you can learn how to dance Reggaeton with your partner.&nbsp;<br />\r\n<br />\r\nReggaeton is the fusion of Reggae, Latin, and Hip Hop flavors. Originating in Panama as &lsquo;Spanish Reggae,&rsquo; the genre soon spread in popularity throughout Latin America, especially in Puerto Rico. The Reggaeton beat was derived from one of the most renowned Dancehall &ldquo;riddims&rdquo; which is fast and energetic, reflecting the way in which it is danced. Reggaeton focuses on strong and sensual hip movements (commonly known as dancing &lsquo;perreo&rsquo;) and often incorporates Hip&nbsp;Hop grooves and Latin dance technique.&nbsp;<br />\r\n<br />\r\nDuring the classes&nbsp;you will get a full-body workout, it will be sweaty, and&nbsp;in the meanwhile&nbsp;you will learn steps and some cool choreographies</p>"
+    },
+    {
+      "id": 196907,
+      "key": "yUYFAc167MGNt8Q6XJZtFKSe",
+      "code": "HT23-SALS-2",
+      "uid": "196907.event@cogwork.se",
+      "source": "https://dans.se/event/196907",
+      "name": "Salsa Rueda Improvers Workshop",
+      "created": "2023-08-26 12:38:41",
+      "creator": {
+        "id": "66550",
+        "key": "k96Tc4zV5P1avJuUGTlKQ0kp",
+        "name": "Björn Löfstrand"
+      },
+      "category": {
+        "id": 1,
+        "name": ""
+      },
+      "place": "Lda1",
+      "pricing": {
+        "currency": "SEK",
+        "basePriceInclVat": 320
+      },
+      "registration": {
+        "status": "CLOSED",
+        "showing": true,
+        "open": false,
+        "url": "https://dans.se/dansarna/shop/new?event=196907",
+        "statusName": "Stängd",
+        "statusText": "Anmälan stängd",
+        "periods": {
+          "startShowing": "2023-08-26 00:00:00",
+          "startDirectReg": "2023-08-26 00:00:00",
+          "closeReg": "2023-09-24 00:00:00",
+          "stopShowing": "2024-09-25 00:00:00"
+        }
+      },
+      "schedule": {
+        "dayAndTimeInfo": "Lör 17.30-19.30",
+        "start": {
+          "date": "2023-09-23",
+          "time": "17:30:00",
+          "dayOfWeek": "6"
+        },
+        "end": {
+          "date": "2023-09-23",
+          "time": "19:30:00",
+          "dayOfWeek": "6"
+        },
+        "numberOfPlannedOccasions": 1,
+        "numberOfScheduledOccasions": 1,
+        "occasions": [
+          {
+            "length": 7200,
+            "startDateTime": "2023-09-23 17:30:00",
+            "startDayOfWeek": "6",
+            "endDateTime": "2023-09-23 19:30:00"
+          }
+        ]
+      },
+      "statistics": {
+        "instructors": 2,
+        "accepted": 12,
+        "withDrawn": 1,
+        "leaders": 8,
+        "followers": 4,
+        "singleLeaders": 4,
+        "couples": 4,
+        "acceptedLeaders": 8,
+        "acceptedFollowers": 4,
+        "acceptedSingleLeaders": 4,
+        "acceptedCouples": 4
+      },
+      "grouping": {
+        "eventBlock": {
+          "key": "ipuf7PjrMGIUmy9EwhimpAvq",
+          "id": 13478,
+          "name": "Höstterminen 2023"
+        },
+        "primaryEventGroup": {
+          "key": "RmACkuQBKLC1TLf72N6mQLRV",
+          "id": 7971,
+          "name": "Salsa"
+        }
+      },
+      "categories": [
+        {
+          "id": 1,
+          "code": "NONE",
+          "name": ""
+        }
+      ],
+      "requirements": {
+        "minAge": 18,
+        "levelShort": "<span title=\"Från Nybörjarmedel - Medel\">NM/M</span>",
+        "levelLong": "<span title=\"Från Nybörjarmedel - Medel\">NM/M</span>",
+        "minLevelNumeric": 18,
+        "minParticipants": 12,
+        "maxParticipants": 28
+      },
+      "instructorsName": "Björn och Lana",
+      "staff": {
+        "hiddenStaff": {
+          "person": {
+            "id": 66550,
+            "key": "k96Tc4zV5P1avJuUGTlKQ0kp",
+            "name": "Björn Löfstrand",
+            "nickname": "",
+            "thumb": "https://static.cogwork.se/thumbs/portrait/100022671.jpg"
+          }
+        }
+      },
+      "longdescription": "<p>V&auml;lkommen till en 2-timmars workshop i Rueda de Casino!</p>\r\n\r\n<p>F&ouml;r dig som inte provat Salsa Rueda tidigare kommer nedan en lista med turer och l&auml;nkar till video-klipp som du g&auml;rna f&aring;r titta igenom och tr&auml;na lite p&aring; innan workshopen.</p>\r\n\r\n<p>Vi b&ouml;rjar&nbsp;p&aring; en niv&aring; som motsvarar Forts&auml;ttning (Improvers) i de turer vi l&auml;r ut, men varje workshop &auml;r oberoende av tidigare, s&aring; om du inte kan komma p&aring; en workshop s&aring; g&aring;r det &auml;nd&aring; bra att komma p&aring; n&auml;sta.</p>\r\n\r\n<p>Deltagare&nbsp; i workshopen har gratis intr&auml;de till socialdans&nbsp;kl. 20:00-23:00&nbsp;samma kv&auml;ll.</p>\r\n\r\n<p>Det g&aring;r bra att anm&auml;la sig i par eller enskilt. Antagning sker i turordning&nbsp;och vi ser till&nbsp;att det&nbsp;blir j&auml;mna par p&aring; kursen. Det &auml;r d&auml;rf&ouml;r mycket viktigt att ni verkligen l&auml;ser igenom anm&auml;lningsvillkoren noga. Sena avbokningar st&auml;ller ocks&aring; till det lite f&ouml;r oss med att f&aring; j&auml;mna par. S&aring; om ni, efter att blivit antagna, vet att ni inte kan medverka -&nbsp;meddela oss s&aring; tidigt som m&ouml;jligt!&nbsp;</p>\r\n\r\n<p>Anm&auml;lan &auml;r BINDANDE och betalning skall vara Dansarna.se tillhanda senast fredag innan workshop. Hel eller delvis &aring;terbetalning sker enbart om eventet st&auml;lls in eller om giltigt sk&auml;l enl. anm&auml;lningsvillkor f&ouml;religger.</p>\r\n\r\n<ul>\r\n</ul>\r\n\r\n<p><strong>F&ouml;rkunskaper</strong>: Du ska ha dansat Salsa Cuban tidigare.</p>\r\n\r\n<p>Turer som kan vara bra att ha lite koll p&aring;:</p>\r\n\r\n<ul>\r\n\t<li>Dile q No&nbsp;- <a href=\"https://www.youtube.com/watch?v=8sE3nNyeOzA\">https://www.youtube.com/watch?v=8sE3nNyeOzA</a></li>\r\n\t<li>Enchufla&nbsp; (doble)&nbsp;- <a href=\"https://www.youtube.com/watch?v=6OxXNbCZmpA\">https://www.youtube.com/watch?v=6OxXNbCZmpA</a></li>\r\n\t<li>Setenta -&nbsp;<a href=\"https://www.youtube.com/watch?v=_B55w-0o0qw\">https://www.youtube.com/watch?v=_B55w-0o0qw</a></li>\r\n\t<li>Sombrero -&nbsp;<a href=\"https://www.youtube.com/watch?v=pY_sGnB_sTc\">https://www.youtube.com/watch?v=pY_sGnB_sTc</a></li>\r\n\t<li>Vacilala -&nbsp;<a href=\"https://www.youtube.com/watch?v=ZGLphJksPso\">https://www.youtube.com/watch?v=ZGLphJksPso</a></li>\r\n</ul>"
+    },
+    {
+      "id": 196908,
+      "key": "GgW0QM1osCkCRp6oven8LD8s",
+      "code": "HT23-SALS-2_COPY",
+      "uid": "196908.event@cogwork.se",
+      "source": "https://dans.se/event/196908",
+      "name": "Salsa Rueda Improvers Workshop",
+      "created": "2023-08-26 12:50:32",
+      "creator": {
+        "id": "66550",
+        "key": "k96Tc4zV5P1avJuUGTlKQ0kp",
+        "name": "Björn Löfstrand"
+      },
+      "category": {
+        "id": 1,
+        "name": ""
+      },
+      "place": "Lda1",
+      "pricing": {
+        "currency": "SEK",
+        "basePriceInclVat": 320
+      },
+      "registration": {
+        "status": "CLOSED",
+        "showing": true,
+        "open": false,
+        "url": "https://dans.se/dansarna/shop/new?event=196908",
+        "statusName": "Stängd",
+        "statusText": "Anmälan stängd",
+        "periods": {
+          "startShowing": "2023-08-26 00:00:00",
+          "startDirectReg": "2023-08-26 00:00:00",
+          "closeReg": "2023-12-17 00:00:00"
+        }
+      },
+      "schedule": {
+        "dayAndTimeInfo": "Lör 17.30-19.30",
+        "start": {
+          "date": "2023-12-16",
+          "time": "17:30:00",
+          "dayOfWeek": "6"
+        },
+        "end": {
+          "date": "2023-12-16",
+          "time": "19:30:00",
+          "dayOfWeek": "6"
+        },
+        "numberOfPlannedOccasions": 1,
+        "numberOfScheduledOccasions": 1,
+        "occasions": [
+          {
+            "length": 7200,
+            "startDateTime": "2023-12-16 17:30:00",
+            "startDayOfWeek": "6",
+            "endDateTime": "2023-12-16 19:30:00"
+          }
+        ]
+      },
+      "statistics": {
+        "instructors": 2,
+        "accepted": 24,
+        "withDrawn": 6,
+        "noSpace": 2,
+        "leaders": 12,
+        "followers": 12,
+        "singleLeaders": 5,
+        "singleFollowers": 5,
+        "couples": 7,
+        "acceptedLeaders": 12,
+        "acceptedFollowers": 12,
+        "acceptedSingleLeaders": 5,
+        "acceptedSingleFollowers": 5,
+        "acceptedCouples": 7
+      },
+      "grouping": {
+        "eventBlock": {
+          "key": "ipuf7PjrMGIUmy9EwhimpAvq",
+          "id": 13478,
+          "name": "Höstterminen 2023"
+        },
+        "primaryEventGroup": {
+          "key": "RmACkuQBKLC1TLf72N6mQLRV",
+          "id": 7971,
+          "name": "Salsa"
+        }
+      },
+      "categories": [
+        {
+          "id": 1,
+          "code": "NONE",
+          "name": ""
+        }
+      ],
+      "requirements": {
+        "minAge": 18,
+        "levelShort": "<span title=\"Från Nybörjarmedel - Medel\">NM/M</span>",
+        "levelLong": "<span title=\"Från Nybörjarmedel - Medel\">NM/M</span>",
+        "minLevelNumeric": 18,
+        "minParticipants": 12,
+        "maxParticipants": 28
+      },
+      "instructorsName": "Björn och Lana",
+      "staff": {
+        "hiddenStaff": {
+          "person": {
+            "id": 66550,
+            "key": "k96Tc4zV5P1avJuUGTlKQ0kp",
+            "name": "Björn Löfstrand",
+            "nickname": "",
+            "thumb": "https://static.cogwork.se/thumbs/portrait/100022671.jpg"
+          }
+        }
+      },
+      "longdescription": "<p>V&auml;lkommen till en 2-timmars workshop i Rueda de Casino!</p>\r\n\r\n<p>F&ouml;r dig som inte provat Salsa Rueda tidigare kommer nedan en lista med turer och l&auml;nkar till video-klipp som du g&auml;rna f&aring;r titta&nbsp;igenom och tr&auml;na lite p&aring; innan workshopen.</p>\r\n\r\n<p>Vi b&ouml;rjar&nbsp;p&aring; en niv&aring; som motsvarar Forts&auml;ttning (Improvers) i de turer vi l&auml;r ut, men varje workshop &auml;r oberoende av tidigare, s&aring; om du inte kan komma p&aring; en workshop s&aring; g&aring;r det &auml;nd&aring; bra att komma p&aring; n&auml;sta.</p>\r\n\r\n<p>Deltagare&nbsp; i workshopen har gratis intr&auml;de till socialdans&nbsp;kl. 20:00-23:00&nbsp;samma kv&auml;ll.</p>\r\n\r\n<p>Det g&aring;r bra att anm&auml;la sig i par eller enskilt. Antagning sker i turordning&nbsp;och vi ser till&nbsp;att det&nbsp;blir j&auml;mna par p&aring; kursen. Det &auml;r d&auml;rf&ouml;r mycket viktigt att ni verkligen l&auml;ser igenom anm&auml;lningsvillkoren noga. Sena avbokningar st&auml;ller ocks&aring; till det lite f&ouml;r oss med att f&aring; j&auml;mna par. S&aring; om ni, efter att blivit antagna, vet att ni inte kan medverka -&nbsp;meddela oss s&aring; tidigt som m&ouml;jligt!&nbsp;</p>\r\n\r\n<p>Anm&auml;lan &auml;r BINDANDE och betalning skall vara Dansarna.se tillhanda senast fredag innan workshop. Hel eller delvis &aring;terbetalning sker enbart om eventet st&auml;lls in eller om giltigt sk&auml;l enl. anm&auml;lningsvillkor f&ouml;religger.</p>\r\n\r\n<ul>\r\n</ul>\r\n\r\n<p><strong>F&ouml;rkunskaper</strong>: Du ska ha dansat Salsa Cuban tidigare.</p>\r\n\r\n<ul>\r\n</ul>\r\n\r\n<p>Turer som kan vara bra att ha lite koll p&aring;:</p>\r\n\r\n<ul>\r\n\t<li>Dile q No&nbsp;- <a href=\"https://www.youtube.com/watch?v=8sE3nNyeOzA\">https://www.youtube.com/watch?v=8sE3nNyeOzA</a></li>\r\n\t<li>Enchufla&nbsp; (doble)&nbsp;- <a href=\"https://www.youtube.com/watch?v=6OxXNbCZmpA\">https://www.youtube.com/watch?v=6OxXNbCZmpA</a></li>\r\n\t<li>Setenta -&nbsp;<a href=\"https://www.youtube.com/watch?v=_B55w-0o0qw\">https://www.youtube.com/watch?v=_B55w-0o0qw</a></li>\r\n\t<li>Sombrero -&nbsp;<a href=\"https://www.youtube.com/watch?v=pY_sGnB_sTc\">https://www.youtube.com/watch?v=pY_sGnB_sTc</a></li>\r\n\t<li>Vacilala -&nbsp;<a href=\"https://www.youtube.com/watch?v=ZGLphJksPso\">https://www.youtube.com/watch?v=ZGLphJksPso</a></li>\r\n</ul>"
+    },
+    {
+      "id": 209856,
+      "key": "fcDUWOENwK5s7mqQdNrZNgvc",
+      "code": "VT24-SALS-1",
+      "uid": "209856.event@cogwork.se",
+      "source": "https://dans.se/event/209856",
+      "name": "Salsa Fortsättning",
+      "created": "2024-01-03 19:29:56",
+      "creator": {
+        "id": "744239",
+        "key": "mo0nA4eqWCSCnvw2zUSrgjKb",
+        "name": "Marlene Wenngren"
+      },
+      "category": {
+        "id": 1,
+        "name": ""
+      },
+      "place": "Dansarnas nya lokal på S:t Larsgatan 3",
+      "pricing": {
+        "currency": "SEK",
+        "basePriceInclVat": 750
+      },
+      "registration": {
+        "status": "DIRECT",
+        "showing": true,
+        "open": true,
+        "url": "https://dans.se/dansarna/shop/new?event=209856",
+        "statusName": "Direkt",
+        "statusText": "Direktanmälan",
+        "periods": {
+          "startShowing": "2024-01-05 00:00:00",
+          "startDirectReg": "2024-01-07 00:00:00"
+        }
+      },
+      "schedule": {
+        "dayAndTimeInfo": "Mån 19.00-20.15",
+        "start": {
+          "date": "2024-02-26",
+          "time": "19:00:00",
+          "dayOfWeek": "1"
+        },
+        "end": {
+          "date": "2024-04-01",
+          "time": "20:15:00",
+          "dayOfWeek": "1"
+        },
+        "numberOfPlannedOccasions": 6,
+        "numberOfScheduledOccasions": 6,
+        "occasions": [
+          {
+            "length": 4500,
+            "startDateTime": "2024-02-26 19:00:00",
+            "startDayOfWeek": "1",
+            "endDateTime": "2024-02-26 20:15:00"
+          },
+          {
+            "length": 4500,
+            "startDateTime": "2024-03-04 19:00:00",
+            "startDayOfWeek": "1",
+            "endDateTime": "2024-03-04 20:15:00"
+          },
+          {
+            "length": 4500,
+            "startDateTime": "2024-03-11 19:00:00",
+            "startDayOfWeek": "1",
+            "endDateTime": "2024-03-11 20:15:00"
+          },
+          {
+            "length": 4500,
+            "startDateTime": "2024-03-18 19:00:00",
+            "startDayOfWeek": "1",
+            "endDateTime": "2024-03-18 20:15:00"
+          },
+          {
+            "length": 4500,
+            "startDateTime": "2024-03-25 19:00:00",
+            "startDayOfWeek": "1",
+            "endDateTime": "2024-03-25 20:15:00"
+          },
+          {
+            "length": 4500,
+            "startDateTime": "2024-04-01 19:00:00",
+            "startDayOfWeek": "1",
+            "endDateTime": "2024-04-01 20:15:00"
+          }
+        ]
+      },
+      "statistics": {
+        "accepted": 18,
+        "inQueue": 4,
+        "withDrawn": 1,
+        "leaders": 9,
+        "followers": 13,
+        "singleLeaders": 4,
+        "singleFollowers": 8,
+        "couples": 5,
+        "acceptedLeaders": 9,
+        "acceptedFollowers": 9,
+        "acceptedSingleLeaders": 4,
+        "acceptedSingleFollowers": 4,
+        "acceptedCouples": 5
+      },
+      "grouping": {
+        "eventBlock": {
+          "key": "95Wuhb8rFIH0foOzLPtaZLps",
+          "id": 14474,
+          "name": "Vårterminen 2024"
+        },
+        "primaryEventGroup": {
+          "key": "RmACkuQBKLC1TLf72N6mQLRV",
+          "id": 7971,
+          "name": "Salsa"
+        }
+      },
+      "categories": [
+        {
+          "id": 1,
+          "code": "NONE",
+          "name": ""
+        }
+      ],
+      "requirements": {
+        "minAge": 18,
+        "levelShort": "<span title=\"Från Nybörjarmedel - Medel\">NM/M</span>",
+        "levelLong": "<span title=\"Från Nybörjarmedel - Medel\">NM/M</span>",
+        "minLevelNumeric": 18,
+        "minParticipants": 20,
+        "maxParticipants": 30
+      },
+      "instructorsName": "Hugo och Marlene",
+      "longdescription": "<p>Forts&auml;ttningskurs i kubansk salsa (casino) f&ouml;r dig som g&aring;tt en nyb&ouml;rjarkurs eller p&aring; annat s&auml;tt l&auml;rt dig grunderna i dansen. Tillsammans kommer vi utvidga v&aring;r reportar av turer samt tr&auml;na p&aring; variationer av de vanligaste turerna. Vi kommer &auml;ven fokusera p&aring; att l&auml;ra oss anpassa v&aring;r dans utifr&aring;n musiken.</p>\r\n\r\n<p>Det g&aring;r att anm&auml;la sig b&aring;de som par och utan partner. Under lektionerna roterar vi danspartner.</p>\r\n\r\n<p>Kursen genomf&ouml;rs p&aring; svenska och/eller engelska beroende p&aring; deltagare.</p>\r\n\r\n<p>Early bird-rabatt dras automatiskt. F&ouml;r studentrabatt, fyll i &quot;STUDENT&quot; i f&auml;ltet &quot;eventuell bokningskod&quot;.</p>\r\n\r\n<p>---</p>\r\n\r\n<p>Course in casino (cuban salsa) on an improvers level. You should have taken a beginner&#39;s course or be on an equal level. Together we will learn more moves and practice variations on the basic moves. A focus will be on learning to adapt our dancing to the song.&nbsp;</p>\r\n\r\n<p>You can register with a partner or without. We will rotatate dance partners during the class.</p>\r\n\r\n<p>The course is in Swedish and/or English depending on the needs of the participants.</p>"
+    },
+    {
+      "id": 210960,
+      "key": "UmNwo86N9eWG56UIMXchd3WM",
+      "code": "VT24-SALS-2",
+      "uid": "210960.event@cogwork.se",
+      "source": "https://dans.se/event/210960",
+      "name": "Salsa Nybörjare",
+      "created": "2024-01-21 21:44:09",
+      "creator": {
+        "id": "66551",
+        "key": "NWmuHRISOE0epLzmd0Bfy9pP",
+        "name": "Svetlana Löfstrand"
+      },
+      "category": {
+        "id": 1,
+        "name": ""
+      },
+      "place": "St Larsgatan 3",
+      "pricing": {
+        "currency": "SEK",
+        "basePriceInclVat": 1200
+      },
+      "registration": {
+        "status": "DIRECT",
+        "showing": true,
+        "open": true,
+        "url": "https://dans.se/dansarna/shop/new?event=210960",
+        "statusName": "Direkt",
+        "statusText": "Direktanmälan",
+        "periods": {
+          "startShowing": "2024-01-21 00:00:00",
+          "startDirectReg": "2024-01-21 00:00:00",
+          "startLateReg": "2024-03-10 00:00:00",
+          "closeReg": "2024-03-17 00:00:00",
+          "stopShowing": "2024-05-02 00:00:00"
+        }
+      },
+      "schedule": {
+        "dayAndTimeInfo": "Lör 11.00-13.00",
+        "start": {
+          "date": "2024-03-09",
+          "time": "11:00:00",
+          "dayOfWeek": "6"
+        },
+        "end": {
+          "date": "2024-04-20",
+          "time": "13:00:00",
+          "dayOfWeek": "6"
+        },
+        "numberOfPlannedOccasions": 6,
+        "numberOfScheduledOccasions": 6,
+        "occasions": [
+          {
+            "length": 7200,
+            "startDateTime": "2024-03-09 11:00:00",
+            "startDayOfWeek": "6",
+            "endDateTime": "2024-03-09 13:00:00"
+          },
+          {
+            "length": 7200,
+            "startDateTime": "2024-03-16 11:00:00",
+            "startDayOfWeek": "6",
+            "endDateTime": "2024-03-16 13:00:00"
+          },
+          {
+            "length": 7200,
+            "startDateTime": "2024-03-23 11:00:00",
+            "startDayOfWeek": "6",
+            "endDateTime": "2024-03-23 13:00:00"
+          },
+          {
+            "length": 7200,
+            "startDateTime": "2024-04-06 11:00:00",
+            "startDayOfWeek": "6",
+            "endDateTime": "2024-04-06 13:00:00"
+          },
+          {
+            "length": 7200,
+            "startDateTime": "2024-04-13 11:00:00",
+            "startDayOfWeek": "6",
+            "endDateTime": "2024-04-13 13:00:00"
+          },
+          {
+            "length": 7200,
+            "startDateTime": "2024-04-20 11:00:00",
+            "startDayOfWeek": "6",
+            "endDateTime": "2024-04-20 13:00:00"
+          }
+        ]
+      },
+      "statistics": {
+        "instructors": 2,
+        "accepted": 6,
+        "inQueue": 2,
+        "leaders": 3,
+        "followers": 5,
+        "singleLeaders": 1,
+        "singleFollowers": 3,
+        "couples": 2,
+        "acceptedLeaders": 3,
+        "acceptedFollowers": 3,
+        "acceptedSingleLeaders": 1,
+        "acceptedSingleFollowers": 1,
+        "acceptedCouples": 2
+      },
+      "grouping": {
+        "eventBlock": {
+          "key": "95Wuhb8rFIH0foOzLPtaZLps",
+          "id": 14474,
+          "name": "Vårterminen 2024"
+        },
+        "primaryEventGroup": {
+          "key": "RmACkuQBKLC1TLf72N6mQLRV",
+          "id": 7971,
+          "name": "Salsa"
+        }
+      },
+      "categories": [
+        {
+          "id": 1,
+          "code": "NONE",
+          "name": ""
+        }
+      ],
+      "requirements": {
+        "minAge": 18,
+        "levelShort": "<span title=\"Från Nybörjare\">N</span>",
+        "levelLong": "<span title=\"Från Nybörjare\">N</span>",
+        "minLevelNumeric": 9,
+        "minParticipants": 12,
+        "maxParticipants": 30
+      },
+      "instructorsName": "Björn och Lana",
+      "staff": {
+        "hiddenStaff": {
+          "person": {
+            "id": 66550,
+            "key": "k96Tc4zV5P1avJuUGTlKQ0kp",
+            "name": "Björn Löfstrand",
+            "nickname": "",
+            "thumb": "https://static.cogwork.se/thumbs/portrait/100022671.jpg"
+          }
+        }
+      },
+      "longdescription": "<p>V&auml;lkommen till en kurs f&ouml;r dig som vill b&ouml;rja dansa Salsa.&nbsp;</p>\r\n\r\n<p>Kursen &auml;r p&aring; nyb&ouml;rjarniv&aring; och du beh&ouml;ver ingen tidigare dansvana.&nbsp;</p>\r\n\r\n<p>I kursen kommer vi l&auml;ra oss:</p>\r\n\r\n<p>*Grundsteg<br />\r\n*Enklare turer och s&auml;tt att variera dessa<br />\r\n*Att k&auml;nna in takten och rytmerna i salsamusiken</p>\r\n\r\n<p>Under kursen kommer vi rotera partners s&aring; l&aring;ngt som m&ouml;jligt. Du beh&ouml;ver d&auml;rf&ouml;r inte oroa dig f&ouml;r att anm&auml;la dig utan partner. Om ni &auml;r ett par som inte vill byta partners g&aring;r detta sj&auml;lvklart ocks&aring; bra.</p>\r\n\r\n<p>V&auml;nligen l&auml;s anm&auml;lningsvillkor noga!</p>\r\n\r\n<p>Vid anm&auml;lan g&auml;ller 14-dagar &aring;ngerr&auml;tt d&auml;refter &auml;r ni skyldiga att erl&auml;gga kursavgift &auml;ven om ni v&auml;ljer att hoppa av, oavsett anledning. St&auml;lls kursen in av Dansarna.se s&aring; sker &aring;terbetalning.&nbsp;</p>\r\n\r\n<p>Rabatt: 20% Boka-tidigt-rabatt f&ouml;r anm&auml;lan 6 veckor&nbsp;innan start. 10% Studentrabatt, kr&auml;ver giltig student ID (ange STUDENT som bokningskod vid registrering).</p>\r\n\r\n<p>Uppeh&aring;ll 30/3 under p&aring;skhelgen.</p>\r\n\r\n<p>-----</p>\r\n\r\n<p>The course will be held mainly in Swedish, but we will answer questions and give individual advice in English!</p>\r\n\r\n<p>A course for you who want to start dancing Salsa!</p>\r\n\r\n<p>The course is on a Beginners level and you don&rsquo;t need any prior dancing experience.</p>\r\n\r\n<p>In the course we will learn:</p>\r\n\r\n<p>*Basic salsa steps<br />\r\n*Simpler moves and ways to modify these<br />\r\n*To feel the rhythm of salsa music</p>\r\n\r\n<p>During the course we will rotate partners as much as possible. This means that you don&rsquo;t have to worry about signing up by yourself. If you are a couple that do not want to switch partners, this is also fine.</p>"
+    },
+    {
+      "id": 212312,
+      "key": "T0lZNxEvX6d7KgqKCM8ULLd4",
+      "code": "VT24-SALS-3",
+      "uid": "212312.event@cogwork.se",
+      "source": "https://dans.se/event/212312",
+      "name": "Salsa prova-på",
+      "created": "2024-02-15 09:19:35",
+      "creator": {
+        "id": "66551",
+        "key": "NWmuHRISOE0epLzmd0Bfy9pP",
+        "name": "Svetlana Löfstrand"
+      },
+      "category": {
+        "id": 1,
+        "name": ""
+      },
+      "place": "Dansarna Stora",
+      "pricing": {
+        "currency": "SEK",
+        "basePriceInclVat": 290
+      },
+      "registration": {
+        "status": "DIRECT",
+        "showing": true,
+        "open": true,
+        "url": "https://dans.se/dansarna/shop/new?event=212312",
+        "statusName": "Direkt",
+        "statusText": "Direktanmälan",
+        "periods": {
+          "startShowing": "2024-02-19 00:00:00",
+          "startDirectReg": "2024-02-19 00:00:00",
+          "closeReg": "2024-04-08 00:00:00",
+          "stopShowing": "2024-04-09 00:00:00"
+        }
+      },
+      "schedule": {
+        "dayAndTimeInfo": "Lör 13.30-15.30",
+        "start": {
+          "date": "2024-04-06",
+          "time": "13:30:00",
+          "dayOfWeek": "6"
+        },
+        "end": {
+          "date": "2024-01-06",
+          "time": "15:30:00",
+          "dayOfWeek": "6"
+        },
+        "numberOfPlannedOccasions": 1,
+        "numberOfScheduledOccasions": 1,
+        "occasions": [
+          {
+            "length": 7200,
+            "startDateTime": "2024-01-06 13:30:00",
+            "startDayOfWeek": "6",
+            "endDateTime": "2024-01-06 15:30:00"
+          }
+        ]
+      },
+      "grouping": {
+        "eventBlock": {
+          "key": "95Wuhb8rFIH0foOzLPtaZLps",
+          "id": 14474,
+          "name": "Vårterminen 2024"
+        },
+        "primaryEventGroup": {
+          "key": "RmACkuQBKLC1TLf72N6mQLRV",
+          "id": 7971,
+          "name": "Salsa"
+        }
+      },
+      "categories": [
+        {
+          "id": 1,
+          "code": "NONE",
+          "name": ""
+        }
+      ],
+      "requirements": {
+        "minAge": 18,
+        "levelShort": "<span title=\"Från Nybörjare\">N</span>",
+        "levelLong": "<span title=\"Från Nybörjare\">N</span>",
+        "minLevelNumeric": 9,
+        "minParticipants": 2
+      },
+      "longdescription": "<p>En kurs f&ouml;r dig som vill b&ouml;rja dansa Salsa!</p>\r\n\r\n<p>Kursen &auml;r p&aring; nyb&ouml;rjarniv&aring; och du beh&ouml;ver ingen tidigare dansvana. Vi dansar kubansk stil (Salsa Cuban), vilket &auml;r en dynamisk dansform med mycket r&ouml;relse och m&ouml;jlighet till kreatitivitet.</p>\r\n\r\n<p>I kursen kommer vi l&auml;ra oss:<br />\r\nGrundsteg.<br />\r\nEnklare turer och s&auml;tt att variera dessa.<br />\r\nAtt k&auml;nna in takten och rytmerna i salsamusiken.</p>\r\n\r\n<p>Under kursen kommer vi rotera partners s&aring; l&aring;ngt som m&ouml;jligt. Du beh&ouml;ver d&auml;rf&ouml;r inte oroa dig f&ouml;r att anm&auml;la dig utan partner. Om ni &auml;r ett par som inte vill byta partners s&aring; g&aring;r detta sj&auml;lvklart ocks&aring; bra.</p>\r\n\r\n<p>Har du fr&aring;gor om kursen s&aring; kontakta instrukt&ouml;rerna: patrik@dansarna.se , lana@dansarna.se</p>\r\n\r\n<p>V&auml;nligen l&auml;s anm&auml;lningsvillkoren noga!<br />\r\nVid anm&auml;lan g&auml;ller 14 dagars &aring;ngerr&auml;tt. D&auml;refter &auml;r ni skyldiga att erl&auml;gga kursavgift &auml;ven om ni v&auml;ljer att hoppa av, oavsett anledning. St&auml;lls kursen in av Dansarna.se s&aring; sker &aring;terbetalning.<br />\r\nRabatt: 20% Boka-tidigt-rabatt f&ouml;r anm&auml;lan 6 veckor&nbsp;innan start.&nbsp;10% Studentrabatt, kr&auml;ver giltig student ID (ange STUDENT som bokningskod vid registrering).</p>\r\n\r\n<p>-----</p>\r\n\r\n<p>The course will be held mainly in Swedish, but we will answer questions and give individual advice in English!</p>\r\n\r\n<p>A course for anyone who wants to start dancing Salsa! The course is on a beginners level and you don&rsquo;t need any prior dancing experience. We dance Cuban style, which is a dynamic dance style with a lot of motion and options for creativity.</p>\r\n\r\n<p>In the course we will learn:<br />\r\nBasic Salsa steps.<br />\r\nSimpler moves and ways to modify these.<br />\r\nTo feel the rhythm of salsa music.</p>\r\n\r\n<p>During the course we will rotate partners as much as possible. This means you don&rsquo;t have to worry about signing up by yourself. If you are a couple that do not want to switch partners, this is also fine.</p>\r\n\r\n<p>If you have any questions about the course, contact the instructors: patrik@dansarna.se , lana@dansarna.se</p>"
+    },
+    {
+      "id": 209841,
+      "key": "fcDshhaevUIZdjWvlMEAwIV5",
+      "code": "VT24-WCSW-2",
+      "uid": "209841.event@cogwork.se",
+      "source": "https://dans.se/event/209841",
+      "name": "West Coast Swing Improvers / Fortsättningskurs",
+      "created": "2024-01-03 13:37:07",
+      "creator": {
+        "id": "44566",
+        "key": "o8d7qTaBA9FPlNY4tJKb2RJo",
+        "name": "Jakob Bjerkemo"
+      },
+      "category": {
+        "id": 1,
+        "name": ""
+      },
+      "place": "S:t Larsgatan 3, ingång från Järnvägsgatan",
+      "pricing": {
+        "currency": "SEK",
+        "basePriceInclVat": 1100
+      },
+      "registration": {
+        "status": "DIRECT",
+        "showing": true,
+        "open": true,
+        "url": "https://dans.se/dansarna/shop/new?event=209841",
+        "statusName": "Direkt",
+        "statusText": "Direktanmälan",
+        "periods": {
+          "startShowing": "2024-01-03 00:00:00",
+          "startDirectReg": "2024-01-03 12:00:00",
+          "closeReg": "2024-03-05 23:00:00",
+          "stopShowing": "2024-04-16 00:00:00"
+        }
+      },
+      "schedule": {
+        "dayAndTimeInfo": "Tisdagar 19:40-21:00",
+        "start": {
+          "date": "2024-02-06",
+          "time": "19:40:00",
+          "dayOfWeek": "2"
+        },
+        "end": {
+          "date": "2024-04-09",
+          "time": "21:00:00",
+          "dayOfWeek": "2"
+        },
+        "numberOfPlannedOccasions": 10,
+        "numberOfScheduledOccasions": 10,
+        "occasions": [
+          {
+            "length": 4800,
+            "startDateTime": "2024-02-06 19:40:00",
+            "startDayOfWeek": "2",
+            "endDateTime": "2024-02-06 21:00:00"
+          },
+          {
+            "length": 4800,
+            "startDateTime": "2024-02-13 19:40:00",
+            "startDayOfWeek": "2",
+            "endDateTime": "2024-02-13 21:00:00"
+          },
+          {
+            "length": 4800,
+            "startDateTime": "2024-02-20 19:40:00",
+            "startDayOfWeek": "2",
+            "endDateTime": "2024-02-20 21:00:00"
+          },
+          {
+            "length": 4800,
+            "startDateTime": "2024-02-27 19:40:00",
+            "startDayOfWeek": "2",
+            "endDateTime": "2024-02-27 21:00:00"
+          },
+          {
+            "length": 4800,
+            "startDateTime": "2024-03-05 19:40:00",
+            "startDayOfWeek": "2",
+            "endDateTime": "2024-03-05 21:00:00"
+          },
+          {
+            "length": 4800,
+            "startDateTime": "2024-03-12 19:40:00",
+            "startDayOfWeek": "2",
+            "endDateTime": "2024-03-12 21:00:00"
+          },
+          {
+            "length": 4800,
+            "startDateTime": "2024-03-19 19:40:00",
+            "startDayOfWeek": "2",
+            "endDateTime": "2024-03-19 21:00:00"
+          },
+          {
+            "length": 4800,
+            "startDateTime": "2024-03-26 19:40:00",
+            "startDayOfWeek": "2",
+            "endDateTime": "2024-03-26 21:00:00"
+          },
+          {
+            "length": 4800,
+            "startDateTime": "2024-04-02 19:40:00",
+            "startDayOfWeek": "2",
+            "endDateTime": "2024-04-02 21:00:00"
+          },
+          {
+            "length": 4800,
+            "startDateTime": "2024-04-09 19:40:00",
+            "startDayOfWeek": "2",
+            "endDateTime": "2024-04-09 21:00:00"
+          }
+        ]
+      },
+      "statistics": {
+        "accepted": 20,
+        "leaders": 9,
+        "followers": 11,
+        "singleLeaders": 6,
+        "singleFollowers": 8,
+        "couples": 3,
+        "acceptedLeaders": 9,
+        "acceptedFollowers": 11,
+        "acceptedSingleLeaders": 6,
+        "acceptedSingleFollowers": 8,
+        "acceptedCouples": 3
+      },
+      "grouping": {
+        "eventBlock": {
+          "key": "95Wuhb8rFIH0foOzLPtaZLps",
+          "id": 14474,
+          "name": "Vårterminen 2024"
+        },
+        "primaryEventGroup": {
+          "key": "kq55poLldAl1dY3FCgMDWwhq",
+          "id": 7974,
+          "name": "West Coast Swing"
+        }
+      },
+      "categories": [
+        {
+          "id": 1,
+          "code": "NONE",
+          "name": ""
+        }
+      ],
+      "requirements": {
+        "minAge": 16,
+        "levelShort": "<span title=\"Från Nybörjarmedel\">NM</span>",
+        "levelLong": "<span title=\"Från Nybörjarmedel\">NM</span>",
+        "minLevelNumeric": 15,
+        "minParticipants": 4,
+        "maxParticipants": 30
+      },
+      "instructorsName": "Jakob",
+      "longdescription": "<table class=\"Table\" style=\"border-collapse:collapse; border:solid #cccccc 1.0pt\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border:solid #cccccc 1.0pt; padding:1.8pt 3.0pt 1.8pt 3.0pt\">\r\n\t\t\t<p><span style=\"line-height: 16.8pt;\"><span style=\"font-family: Calibri, sans-serif;\"><span style=\"font-family: Helvetica, sans-serif;\"><span style=\"font-size: 12pt;\">Det h&auml;r &auml;r forts&auml;ttningskursen i west coast swing.</span><br />\r\n\t\t\t<br />\r\n\t\t\t<span style=\"font-size: 12pt;\">I den h&auml;r kursen utg&aring;r vi fr&aring;n att deltagarna redan kan grunderna i dansen och kommer under kursen utveckla dessa&nbsp;med mer variationer, turer och f&ouml;rb&auml;ttrad teknik. M&aring;let med kursen &auml;r att utveckla er dans s&aring; att ni f&aring;r st&ouml;rre m&ouml;jligheter att variera och leka med musiken.</span><br />\r\n\t\t\t<br />\r\n\t\t\t<span style=\"font-size: 12pt;\">De f&ouml;rkunskaper som vi r&auml;knar med att ni redan har&nbsp;f&ouml;re kursen &auml;r:</span><br />\r\n\t\t\t<span style=\"font-size: 12pt;\">Trippel-steg, rytmiken f&ouml;r sexor och &aring;ttor</span><br />\r\n\t\t\t<span style=\"font-size: 12pt;\">Starter-step</span><br />\r\n\t\t\t<span style=\"font-size: 12pt;\">Left side pass</span><br />\r\n\t\t\t<span style=\"font-size: 12pt;\">Under arm turn</span><br />\r\n\t\t\t<span style=\"font-size: 12pt;\">Sugar push</span><br />\r\n\t\t\t<span style=\"font-size: 12pt;\">Sugar tuck turn</span><br />\r\n\t\t\t<span style=\"font-size: 12pt;\">Whip</span><br />\r\n\t\t\t<br />\r\n\t\t\t<span style=\"font-size: 12pt;\">Ifall ni &auml;r bekanta med dessa men inte k&auml;nner att de sitter bergfast s&aring; kan ett bra alternativ vara att g&aring; nyb&ouml;rjarkursen eftersom den b&aring;de g&aring;r igenom allt detta och mer d&auml;rtill.&nbsp;</span></span></span></span></p>\r\n\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:16.8pt\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Helvetica&quot;,sans-serif\">Observera att kursen troligen har uppeh&aring;ll en vecka d&aring; instrukt&ouml;ren &auml;r bortrest. Kursen f&ouml;rl&auml;ngs i s&aring; fall s&aring; att antalet lektioner fortfarande &auml;r 10.</span></span></span></span></span></p>\r\n\r\n\t\t\t<p><span style=\"font-size:10.5pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Helvetica&quot;,sans-serif\"><span style=\"color:black\">Kursen h&aring;lls p&aring; svenska eller vid behov p&aring; b&aring;de engelska och svenska.</span></span></span></span></p>\r\n\r\n\t\t\t<p><span style=\"font-size:10.5pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Helvetica&quot;,sans-serif\"><span style=\"color:black\">OBS: F&ouml;r paranm&auml;lan ska b&aring;da fylla i anm&auml;lan och ange den andre som partner s&aring; att ni f&aring;r separata refernsnummer f&ouml;r betalningen. Om ni &auml;r student ange koden STUDENT f&ouml;r att f&aring; 10% rabatt.</span></span></span></span></p>\r\n\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:16.8pt\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Helvetica&quot;,sans-serif\">****************************************************************************</span></span></span></span></span></p>\r\n\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:16.8pt\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Helvetica&quot;,sans-serif\">This is the improvers course in west coast swing.</span></span></span></span></span></p>\r\n\r\n\t\t\t<p><span style=\"line-height: 16.8pt;\"><span style=\"font-family: Calibri, sans-serif;\"><span style=\"font-family: Helvetica, sans-serif;\"><span style=\"font-size: 12pt;\">In this course we will assume that participants already&nbsp;know the basics of the dance and will continue to build on them with more variations, patterns and improved technique. The goal of the course is to evolve your dance to give you more possibilities for variations and really dance to the music.&nbsp;</span><br />\r\n\t\t\t<br />\r\n\t\t\t<span style=\"font-size: 12pt;\">The skills that we will assume that you already have before the course are:</span><br />\r\n\t\t\t<span style=\"font-size: 12pt;\">Trippel-steps, six-count and eight-count rhythms</span><br />\r\n\t\t\t<span style=\"font-size: 12pt;\">Starter-step</span><br />\r\n\t\t\t<span style=\"font-size: 12pt;\">Left side pass</span><br />\r\n\t\t\t<span style=\"font-size: 12pt;\">Under arm turn</span><br />\r\n\t\t\t<span style=\"font-size: 12pt;\">Sugar push</span><br />\r\n\t\t\t<span style=\"font-size: 12pt;\">Sugar tuck turn</span><br />\r\n\t\t\t<span style=\"font-size: 12pt;\">Whip</span><br />\r\n\t\t\t<br />\r\n\t\t\t<span style=\"font-size: 12pt;\">If you are familiar with these but feel that they might not be rock-solid an option is to take the beginners course instead since it will include all this and more.&nbsp;</span></span></span></span><span style=\"font-size:11pt\"><span style=\"line-height:16.8pt\"><span style=\"font-size: 12pt;\"><span style=\"font-family: Helvetica, sans-serif;\">&nbsp;</span></span></span></span></p>\r\n\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:16.8pt\"><span style=\"font-size: 12pt;\"><span style=\"font-family: Helvetica, sans-serif;\">Note that the course will likely have a abreak onre week when the instructor is out of town. The course will then be prololonged so that the number of classes are still 10.</span></span></span></span></p>\r\n\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:16.8pt\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Helvetica&quot;,sans-serif\">Instructions will be in English if needed, otherwise in Swedish.</span></span></span></span></span></p>\r\n\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:16.8pt\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Helvetica&quot;,sans-serif\">NOTE: If you register as a couple (and thus skip a possible queue) both should make a registration and state the other as partner so you get separate refernce numbers for payment.</span></span></span></span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>"
+    },
+    {
+      "id": 209411,
+      "key": "3y5VzAKOPk0RRkAxGXKzE5UK",
+      "code": "VT24-SENS-1",
+      "uid": "209411.event@cogwork.se",
+      "source": "https://dans.se/event/209411",
+      "name": "Sensual Heels",
+      "created": "2023-12-23 18:50:38",
+      "creator": {
+        "id": "731349",
+        "key": "b6Njn2vzApJQ5J2bweNi8YVP",
+        "name": "Kristina Ferm"
+      },
+      "category": {
+        "id": 1,
+        "name": ""
+      },
+      "place": "St Larsgatan 3",
+      "pricing": {
+        "currency": "SEK",
+        "basePriceInclVat": 800
+      },
+      "registration": {
+        "status": "DIRECT",
+        "showing": true,
+        "open": true,
+        "url": "https://dans.se/dansarna/shop/new?event=209411",
+        "statusName": "Direkt",
+        "statusText": "Direktanmälan",
+        "periods": {
+          "startShowing": "2023-12-24 10:00:00",
+          "startDirectReg": "2023-12-24 10:00:00",
+          "closeReg": "2024-06-12 00:00:00",
+          "stopShowing": "2024-06-13 00:00:00"
+        }
+      },
+      "schedule": {
+        "dayAndTimeInfo": "Ons 17.30-19.00",
+        "start": {
+          "date": "2024-05-15",
+          "time": "17:30:00",
+          "dayOfWeek": "3"
+        },
+        "end": {
+          "date": "2024-06-05",
+          "time": "19:00:00",
+          "dayOfWeek": "3"
+        },
+        "numberOfPlannedOccasions": 4,
+        "numberOfScheduledOccasions": 4,
+        "occasions": [
+          {
+            "length": 5400,
+            "startDateTime": "2024-05-15 17:30:00",
+            "startDayOfWeek": "3",
+            "endDateTime": "2024-05-15 19:00:00"
+          },
+          {
+            "length": 5400,
+            "startDateTime": "2024-05-22 17:30:00",
+            "startDayOfWeek": "3",
+            "endDateTime": "2024-05-22 19:00:00"
+          },
+          {
+            "length": 5400,
+            "startDateTime": "2024-05-29 17:30:00",
+            "startDayOfWeek": "3",
+            "endDateTime": "2024-05-29 19:00:00"
+          },
+          {
+            "length": 5400,
+            "startDateTime": "2024-06-05 17:30:00",
+            "startDayOfWeek": "3",
+            "endDateTime": "2024-06-05 19:00:00"
+          }
+        ]
+      },
+      "statistics": {
+        "instructors": 1,
+        "accepted": 9
+      },
+      "grouping": {
+        "eventBlock": {
+          "key": "95Wuhb8rFIH0foOzLPtaZLps",
+          "id": 14474,
+          "name": "Vårterminen 2024"
+        },
+        "primaryEventGroup": {
+          "key": "sqaUvHlR9x8iQNrS4SKOH1zH",
+          "id": 8621,
+          "name": "Sensual Heels"
+        }
+      },
+      "categories": [
+        {
+          "id": 1,
+          "code": "NONE",
+          "name": ""
+        }
+      ],
+      "requirements": {
+        "minAge": 18,
+        "levelShort": "<span title=\"Från Nybörjarmedel\">NM</span>",
+        "levelLong": "<span title=\"Från Nybörjarmedel\">NM</span>",
+        "minLevelNumeric": 15,
+        "minParticipants": 1,
+        "maxParticipants": 18
+      },
+      "instructorsName": "Kristina",
+      "staff": {
+        "hiddenStaff": {
+          "person": {
+            "id": 731349,
+            "key": "b6Njn2vzApJQ5J2bweNi8YVP",
+            "name": "Kristina Ferm",
+            "nickname": "",
+            "thumb": "https://static.cogwork.se/thumbs/portrait/100022719.jpg"
+          }
+        }
+      },
+      "longdescription": "<p>Har du ett par riktigt snygga (men kanske lite f&ouml;r h&ouml;ga...) klackskor hemma som du aldrig f&aring;r anv&auml;ndning av? Nu kommer det perfekta tillf&auml;llet att plocka fram dem ur garderoben!<br />\r\n<br />\r\nSensual Heels &auml;r en sensuell och kaxig dansstil med mycket fokus p&aring; virvlande benr&ouml;relser, attityd och, s&aring;klart, snygga skor! Utmana dig sj&auml;lv med denna tuffa &quot;girl power&quot;-dans och k&auml;nn sj&auml;lvf&ouml;rtroendet v&auml;xa!<br />\r\n<br />\r\nI Sensual Heels h&aring;ller vi oss mycket nere p&aring; golvet s&aring; du beh&ouml;ver inte kunna g&aring; i skorna du dansar med h&auml;r, och sj&auml;lvklart g&aring;r det &auml;ven bra att delta utan klackar om du vill det!</p>\r\n\r\n<p>Kursen h&aring;lls av Kristina fr&aring;n showgruppen Femme Fusion. Den planeras att h&aring;llas p&aring; svenska, men kan &auml;ven h&aring;llas p&aring; engelska.<br />\r\nHar du dansat med Kristina tidigare kan det h&auml;nda att du k&auml;nner igen delar av inneh&aring;llet i kursen.</p>"
+    },
+    {
+      "id": 209659,
+      "key": "b5kaUETipkqAZSpRxqXpqtPR",
+      "code": "VT24-ACRO-1",
+      "uid": "209659.event@cogwork.se",
+      "source": "https://dans.se/event/209659",
+      "name": "Chairdance - Nybörjare",
+      "created": "2023-12-30 20:52:16",
+      "creator": {
+        "id": "33515",
+        "key": "aPurvDYxlbCykxhSR4K97OAX",
+        "name": "Jamie Senewiratne"
+      },
+      "category": {
+        "id": 1,
+        "name": ""
+      },
+      "place": "St Larsgatan 3",
+      "pricing": {
+        "currency": "SEK",
+        "basePriceInclVat": 720
+      },
+      "registration": {
+        "status": "CLOSED",
+        "showing": true,
+        "open": false,
+        "url": "https://dans.se/dansarna/shop/new?event=209659",
+        "statusName": "Stängd",
+        "statusText": "Anmälan stängd",
+        "periods": {
+          "startShowing": "2023-12-30 00:00:00",
+          "startDirectReg": "2023-12-30 00:00:00",
+          "closeReg": "2024-02-17 17:30:00",
+          "stopShowing": "2024-02-20 17:30:00"
+        }
+      },
+      "schedule": {
+        "dayAndTimeInfo": "Tis 17.30-19.00",
+        "start": {
+          "date": "2024-02-20",
+          "time": "17:30:00",
+          "dayOfWeek": "2"
+        },
+        "end": {
+          "date": "2024-03-12",
+          "time": "19:00:00",
+          "dayOfWeek": "2"
+        },
+        "numberOfPlannedOccasions": 4,
+        "numberOfScheduledOccasions": 4,
+        "occasions": [
+          {
+            "length": 5400,
+            "startDateTime": "2024-02-20 17:30:00",
+            "startDayOfWeek": "2",
+            "endDateTime": "2024-02-20 19:00:00"
+          },
+          {
+            "length": 5400,
+            "startDateTime": "2024-02-27 17:30:00",
+            "startDayOfWeek": "2",
+            "endDateTime": "2024-02-27 19:00:00"
+          },
+          {
+            "length": 5400,
+            "startDateTime": "2024-03-05 17:30:00",
+            "startDayOfWeek": "2",
+            "endDateTime": "2024-03-05 19:00:00"
+          },
+          {
+            "length": 5400,
+            "startDateTime": "2024-03-12 17:30:00",
+            "startDayOfWeek": "2",
+            "endDateTime": "2024-03-12 19:00:00"
+          }
+        ]
+      },
+      "statistics": {
+        "instructors": 1,
+        "withDrawn": 2
+      },
+      "grouping": {
+        "eventBlock": {
+          "key": "95Wuhb8rFIH0foOzLPtaZLps",
+          "id": 14474,
+          "name": "Vårterminen 2024"
+        },
+        "primaryEventGroup": {
+          "key": "UJIIsHPlksrG1cDaRi56pqHk",
+          "id": 12038,
+          "name": "Acro"
+        }
+      },
+      "categories": [
+        {
+          "id": 1,
+          "code": "NONE",
+          "name": ""
+        }
+      ],
+      "requirements": {
+        "minAge": 18,
+        "levelShort": "<span title=\"Från Nybörjare\">N</span>",
+        "levelLong": "<span title=\"Från Nybörjare\">N</span>",
+        "minLevelNumeric": 9,
+        "minParticipants": 4,
+        "maxParticipants": 8
+      },
+      "instructorsName": "Jamie",
+      "staff": {
+        "hiddenStaff": {
+          "person": {
+            "id": 33515,
+            "key": "aPurvDYxlbCykxhSR4K97OAX",
+            "name": "Jamie Senewiratne",
+            "nickname": ""
+          }
+        }
+      },
+      "longdescription": "<p>Utmana din styrka och&nbsp;r&ouml;rlighet&nbsp;genom att l&auml;ra dig dansa med en stol och bem&auml;stra ett och annat&nbsp;trick p&aring; stol eller golv!&nbsp;</p>\r\n\r\n<p>Denna kurs riktar sig s&auml;rskilt till nyb&ouml;rjare. R&ouml;relserna och tricken&nbsp;kommer vara av enklare karakt&auml;r och vi kommer att fokusera p&aring; att hitta r&auml;tt position och balans innan vi utmanar oss sj&auml;lva genom att s&auml;tta ihop r&ouml;relserna till en&nbsp;koreografi, d&auml;r timingen ocks&aring; blir viktig.&nbsp;Gruppen &auml;r liten, vilket ger utrymme f&ouml;r personlig hj&auml;lp och feedback.&nbsp;</p>\r\n\r\n<p>Eftersom styrka och r&ouml;rlighet &auml;r en avg&ouml;rande faktor&nbsp;kommer vi att &auml;gna tid &aring;t att v&auml;rma upp och aktivera musklerna med l&auml;tt styrketr&auml;ning samt stretcha de omr&aring;den som kommer vara relevanta.</p>\r\n\r\n<p>M&aring;let &auml;r naturligtvis att ha roligt!</p>\r\n\r\n<p>Jamie, medlem i showgruppen The Coursettes, kommer att vara ledare f&ouml;r denna sp&auml;nnande nyb&ouml;rjarkurs.</p>"
+    },
+    {
+      "id": 209660,
+      "key": "nFaBHYlb52k2ZhL9UzXOTmGM",
+      "code": "VT24-ACRO-2",
+      "uid": "209660.event@cogwork.se",
+      "source": "https://dans.se/event/209660",
+      "name": "Acro Chairdance - Öppen Nivå",
+      "created": "2023-12-30 21:37:16",
+      "creator": {
+        "id": "33515",
+        "key": "aPurvDYxlbCykxhSR4K97OAX",
+        "name": "Jamie Senewiratne"
+      },
+      "category": {
+        "id": 1,
+        "name": ""
+      },
+      "place": "St Larsgatan 3 (Lilla salen)",
+      "pricing": {
+        "currency": "SEK",
+        "basePriceInclVat": 720
+      },
+      "registration": {
+        "status": "DIRECT",
+        "showing": true,
+        "open": true,
+        "url": "https://dans.se/dansarna/shop/new?event=209660",
+        "statusName": "Direkt",
+        "statusText": "Direktanmälan",
+        "periods": {
+          "startShowing": "2023-12-30 00:00:00",
+          "startDirectReg": "2023-12-30 00:00:00",
+          "closeReg": "2024-02-20 19:15:00",
+          "stopShowing": "2024-02-20 19:15:00"
+        }
+      },
+      "schedule": {
+        "dayAndTimeInfo": "Tis 18.00-19.30",
+        "start": {
+          "date": "2024-02-20",
+          "time": "18:00:00",
+          "dayOfWeek": "2"
+        },
+        "end": {
+          "date": "2024-03-12",
+          "time": "19:30:00",
+          "dayOfWeek": "2"
+        },
+        "numberOfPlannedOccasions": 4,
+        "numberOfScheduledOccasions": 4,
+        "occasions": [
+          {
+            "length": 5400,
+            "startDateTime": "2024-02-20 18:00:00",
+            "startDayOfWeek": "2",
+            "endDateTime": "2024-02-20 19:30:00"
+          },
+          {
+            "length": 5400,
+            "startDateTime": "2024-02-27 18:00:00",
+            "startDayOfWeek": "2",
+            "endDateTime": "2024-02-27 19:30:00"
+          },
+          {
+            "length": 5400,
+            "startDateTime": "2024-03-05 18:00:00",
+            "startDayOfWeek": "2",
+            "endDateTime": "2024-03-05 19:30:00"
+          },
+          {
+            "length": 5400,
+            "startDateTime": "2024-03-12 18:00:00",
+            "startDayOfWeek": "2",
+            "endDateTime": "2024-03-12 19:30:00"
+          }
+        ]
+      },
+      "statistics": {
+        "instructors": 1,
+        "accepted": 6
+      },
+      "grouping": {
+        "eventBlock": {
+          "key": "95Wuhb8rFIH0foOzLPtaZLps",
+          "id": 14474,
+          "name": "Vårterminen 2024"
+        },
+        "primaryEventGroup": {
+          "key": "UJIIsHPlksrG1cDaRi56pqHk",
+          "id": 12038,
+          "name": "Acro"
+        }
+      },
+      "categories": [
+        {
+          "id": 1,
+          "code": "NONE",
+          "name": ""
+        }
+      ],
+      "requirements": {
+        "minAge": 18,
+        "levelShort": "<span title=\"Från Medel\">M</span>",
+        "levelLong": "<span title=\"Från Medel\">M</span>",
+        "minLevelNumeric": 21,
+        "minParticipants": 4,
+        "maxParticipants": 8
+      },
+      "instructorsName": "Jamie",
+      "staff": {
+        "hiddenStaff": {
+          "person": {
+            "id": 33515,
+            "key": "aPurvDYxlbCykxhSR4K97OAX",
+            "name": "Jamie Senewiratne",
+            "nickname": ""
+          }
+        }
+      },
+      "longdescription": "<p>OBS &Auml;NDRING:</p>\r\n\r\n<p>Denna grupp &auml;r numera &Ouml;ppen Niv&aring; och sammanslagen med nyb&ouml;rjargruppen pga f&ouml;r f&aring; anm&auml;lningar.</p>\r\n\r\n<p>Ny Starttid kl 18:00!</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Utmana din styrka, r&ouml;rlighet och kanske till och med gravitationen genom att l&auml;ra dig olika akrobatiska trick p&aring; stol eller golv! Dessa trick kommer sedan att v&auml;vas samman till en sp&auml;nnande&nbsp;koreografi.</p>\r\n\r\n<p>Denna kurs v&auml;nder sig till dig med tidigare erfarenhet av Acro, oavsett om det &auml;r fr&aring;n tidigare kurser eller workshops p&aring; Dansarna, gymnastik, poledance eller liknande. Dessa erfarenheter ger en stark grund f&ouml;r att utmana dig sj&auml;lv med trick p&aring; b&aring;de stol och golv. Varje lektion kommer att fokusera p&aring; specifika trick och sedan sammanfoga dem till en dynamisk koreografi d&auml;r timing blir avg&ouml;rande. Gruppen &auml;r liten, vilket ger utrymme f&ouml;r personlig hj&auml;lp och feedback.&nbsp;</p>\r\n\r\n<p>Eftersom styrka och r&ouml;rlighet &auml;r avg&ouml;rande i Acro kommer vi i b&ouml;rjan av varje lektion att &auml;gna tid &aring;t att v&auml;rma upp och aktivera musklerna med l&auml;tt styrketr&auml;ning samt stretcha de omr&aring;den som kommer vara relevanta.</p>\r\n\r\n<p>M&aring;let &auml;r naturligtvis att ha roligt samtidigt som du v&aring;gar utmana dig sj&auml;lv!</p>\r\n\r\n<p>Jamie, medlem i showgruppen The Coursettes, kommer att vara ledare f&ouml;r denna forts&auml;ttningskurs!</p>"
+    },
+    {
+      "id": 209662,
+      "key": "rt4HBNcWnYoNbPxXo1VLumnP",
+      "code": "VT24-ACRO-3",
+      "uid": "209662.event@cogwork.se",
+      "source": "https://dans.se/event/209662",
+      "name": "Heels Flow - Floor & Chair",
+      "created": "2023-12-30 21:57:43",
+      "creator": {
+        "id": "33515",
+        "key": "aPurvDYxlbCykxhSR4K97OAX",
+        "name": "Jamie Senewiratne"
+      },
+      "category": {
+        "id": 1,
+        "name": ""
+      },
+      "place": "St Larsgatan 3 (Stora salen)",
+      "pricing": {
+        "currency": "SEK",
+        "basePriceInclVat": 800
+      },
+      "registration": {
+        "status": "DIRECT",
+        "showing": true,
+        "open": true,
+        "url": "https://dans.se/dansarna/shop/new?event=209662",
+        "statusName": "Direkt",
+        "statusText": "Direktanmälan",
+        "periods": {
+          "startShowing": "2023-12-30 00:00:00",
+          "startDirectReg": "2023-12-30 00:00:00",
+          "closeReg": "2024-04-05 17:30:00",
+          "stopShowing": "2024-04-05 17:30:00"
+        }
+      },
+      "schedule": {
+        "dayAndTimeInfo": "Fre 17.30-19.00",
+        "start": {
+          "date": "2024-04-05",
+          "time": "17:30:00",
+          "dayOfWeek": "5"
+        },
+        "end": {
+          "date": "2024-04-26",
+          "time": "19:00:00",
+          "dayOfWeek": "5"
+        },
+        "numberOfPlannedOccasions": 4,
+        "numberOfScheduledOccasions": 4,
+        "occasions": [
+          {
+            "length": 5400,
+            "startDateTime": "2024-04-05 17:30:00",
+            "startDayOfWeek": "5",
+            "endDateTime": "2024-04-05 19:00:00"
+          },
+          {
+            "length": 5400,
+            "startDateTime": "2024-04-12 17:30:00",
+            "startDayOfWeek": "5",
+            "endDateTime": "2024-04-12 19:00:00"
+          },
+          {
+            "length": 5400,
+            "startDateTime": "2024-04-19 17:30:00",
+            "startDayOfWeek": "5",
+            "endDateTime": "2024-04-19 19:00:00"
+          },
+          {
+            "length": 5400,
+            "startDateTime": "2024-04-26 17:30:00",
+            "startDayOfWeek": "5",
+            "endDateTime": "2024-04-26 19:00:00"
+          }
+        ]
+      },
+      "statistics": {
+        "instructors": 1,
+        "accepted": 1
+      },
+      "grouping": {
+        "eventBlock": {
+          "key": "95Wuhb8rFIH0foOzLPtaZLps",
+          "id": 14474,
+          "name": "Vårterminen 2024"
+        },
+        "primaryEventGroup": {
+          "key": "UJIIsHPlksrG1cDaRi56pqHk",
+          "id": 12038,
+          "name": "Acro"
+        }
+      },
+      "categories": [
+        {
+          "id": 1,
+          "code": "NONE",
+          "name": ""
+        }
+      ],
+      "requirements": {
+        "minAge": 18,
+        "levelShort": "<span title=\"Från Nybörjarmedel\">NM</span>",
+        "levelLong": "<span title=\"Från Nybörjarmedel\">NM</span>",
+        "minLevelNumeric": 15,
+        "minParticipants": 5,
+        "maxParticipants": 15
+      },
+      "instructorsName": "Jamie",
+      "staff": {
+        "hiddenStaff": {
+          "person": {
+            "id": 33515,
+            "key": "aPurvDYxlbCykxhSR4K97OAX",
+            "name": "Jamie Senewiratne",
+            "nickname": ""
+          }
+        }
+      },
+      "longdescription": "<p>Virvlande benr&ouml;relser, vackra silhuetter och sp&auml;nnande trick p&aring; golvet eller stolen i ett sammansatta fl&ouml;de och g&auml;rna i l&auml;ckra klackar&nbsp;</p>\r\n\r\n<p>I denna kurs kommer vi att fokusera p&aring; att v&auml;va samman fina r&ouml;relser och enklare trick i ett fl&ouml;de som ibland byggs p&aring; till en l&auml;ngre koreografi. Allt detta g&auml;rna i v&aring;ra h&ouml;ga fina klackar! Tricken kommer att variera mellan golv och stol, och eftersom vi kommer spendera minimalt med tid p&aring; f&ouml;tterna, rekommenderas h&ouml;ga klackar, helst pleasers, f&ouml;r att ge r&ouml;relserna den d&auml;r extra wow-faktorn.</p>\r\n\r\n<p>Niv&aring;n &auml;r &ouml;ppen, vilket inneb&auml;r att b&aring;de nyb&ouml;rjare och erfarna &auml;r v&auml;lkomna. Som nyb&ouml;rjare kan du fokusera p&aring; tricken och koreografin utan klackarna medan mer erfarna kan g&aring; &quot;all in&quot; med klackarna samt l&auml;gga till en extra dos attityd f&ouml;r mer effekt.&nbsp;</p>\r\n\r\n<p>Eftersom styrka och r&ouml;rlighet &auml;r avg&ouml;rande i att lyckas g&ouml;ra fina trick och smidiga r&ouml;relser&nbsp;kommer vi i b&ouml;rjan av varje lektion att &auml;gna tid &aring;t att v&auml;rma upp och aktivera musklerna med l&auml;tt styrketr&auml;ning samt stretcha de omr&aring;den som kommer vara relevanta.</p>\r\n\r\n<p>M&aring;let &auml;r naturligtvis att ha riktigt roligt och f&aring; m&ouml;jligheten att briljera i dessa fantastiska klackar!</p>\r\n\r\n<p>Jamie, medlem i showgruppen The Coursettes, kommer att vara ledare f&ouml;r denna kurs!</p>"
+    }
+  ]
+}

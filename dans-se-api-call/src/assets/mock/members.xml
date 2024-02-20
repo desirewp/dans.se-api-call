@@ -1,0 +1,374 @@
+<bookings>
+    <search>
+        <maxRows maxRowsDefault="50" maxRowsAllowed="10000">50000</maxRows>
+        <result>
+            <numRowsFound>20</numRowsFound>
+            <numRowsShown>20</numRowsShown>
+            <firstShownRowNum>1</firstShownRowNum>
+            <lastShownRowNum>20</lastShownRowNum>
+        </result>
+    </search>
+    <booking id="R3768329">
+        <event code="2024-Membership" integer_value="210200" eventStartDate="2024-01-01"
+            eventStartShowing="2024-01-01">Dansarna.se Membership 2024</event>
+        <status regStatusCode="ACCEPTED" integer_value="64">Antagen</status>
+        <participant userId="U923748">
+            <userKey>pzjZlfS2NADpypUmpwfxoamA</userKey>
+            <name nickname="Ricki">Ricardo Gonzalez Vargas</name>
+            <dateOfBirth>1994-10-24</dateOfBirth>
+            <pid classicFormat="941024-0338">SE.199410240338</pid>
+        </participant>
+        <payment>
+            <price_agreed currency="SEK">0</price_agreed>
+            <amount_paid currency="SEK">0</amount_paid>
+            <payment_fullfilled>Yes</payment_fullfilled>
+        </payment>
+        <comment></comment>
+    </booking>
+
+    <booking id="R3722961">
+        <event code="2024-Membership" integer_value="210200" eventStartDate="2024-01-01"
+            eventStartShowing="2024-01-01">Dansarna.se Membership 2024</event>
+        <status regStatusCode="ACCEPTED" integer_value="64">Antagen</status>
+        <participant userId="U978739">
+            <userKey>u18uyx989x72RA5xDbpPcOUR</userKey>
+            <name nickname="Mika">Mika Ranstorp</name>
+            <dateOfBirth>2001-04-10</dateOfBirth>
+            <pid classicFormat="010410-4120">SE.200104104120</pid>
+        </participant>
+        <payment>
+            <price_agreed currency="SEK">0</price_agreed>
+            <amount_paid currency="SEK">0</amount_paid>
+            <payment_fullfilled>Yes</payment_fullfilled>
+        </payment>
+        <comment></comment>
+    </booking>
+
+    <booking id="R3722959">
+        <event code="2024-Membership" integer_value="210200" eventStartDate="2024-01-01"
+            eventStartShowing="2024-01-01">Dansarna.se Membership 2024</event>
+        <status regStatusCode="ACCEPTED" integer_value="64">Antagen</status>
+        <participant userId="U765825">
+            <userKey>kukc81cJpWqdSSNp5BZVXcmS</userKey>
+            <name nickname="Henny">Henrietta Eriksson/Hawkyard Conte</name>
+            <dateOfBirth>2000-07-22</dateOfBirth>
+            <pid classicFormat="000722-0106">SE.200007220106</pid>
+        </participant>
+        <payment>
+            <price_agreed currency="SEK">0</price_agreed>
+            <amount_paid currency="SEK">0</amount_paid>
+            <payment_fullfilled>Yes</payment_fullfilled>
+        </payment>
+        <comment></comment>
+    </booking>
+
+    <booking id="R3722949">
+        <event code="2024-Membership" integer_value="210200" eventStartDate="2024-01-01"
+            eventStartShowing="2024-01-01">Dansarna.se Membership 2024</event>
+        <status regStatusCode="ACCEPTED" integer_value="64">Antagen</status>
+        <participant userId="U66551">
+            <userKey>NWmuHRISOE0epLzmd0Bfy9pP</userKey>
+            <name nickname="Lana">Svetlana Löfstrand</name>
+            <dateOfBirth>1969-10-15</dateOfBirth>
+            <pid classicFormat="691015-1767">SE.196910151767</pid>
+        </participant>
+        <payment>
+            <price_agreed currency="SEK">0</price_agreed>
+            <amount_paid currency="SEK">0</amount_paid>
+            <payment_fullfilled>Yes</payment_fullfilled>
+        </payment>
+        <comment></comment>
+    </booking>
+
+    <booking id="R3722947">
+        <event code="2024-Membership" integer_value="210200" eventStartDate="2024-01-01"
+            eventStartShowing="2024-01-01">Dansarna.se Membership 2024</event>
+        <status regStatusCode="ACCEPTED" integer_value="64">Antagen</status>
+        <participant userId="U923748">
+            <userKey>pzjZlfS2NADpypUmpwfxoamA</userKey>
+            <name nickname="Ricki">Ricardo Gonzalez Vargas</name>
+            <dateOfBirth>1994-10-24</dateOfBirth>
+            <pid classicFormat="941024-0338">SE.199410240338</pid>
+        </participant>
+        <payment>
+            <price_agreed currency="SEK">0</price_agreed>
+            <amount_paid currency="SEK">0</amount_paid>
+            <payment_fullfilled>Yes</payment_fullfilled>
+        </payment>
+        <comment></comment>
+    </booking>
+
+    <booking id="R3722946">
+        <event code="2024-Membership" integer_value="210200" eventStartDate="2024-01-01"
+            eventStartShowing="2024-01-01">Dansarna.se Membership 2024</event>
+        <status regStatusCode="ACCEPTED" integer_value="64">Antagen</status>
+        <participant userId="U369127">
+            <userKey>7R7Z5SLmteYZilT8JwVeMFTh</userKey>
+            <name nickname="Raha">Raha Omrani</name>
+            <dateOfBirth>1974-07-12</dateOfBirth>
+            <pid classicFormat="740712-1388">SE.197407121388</pid>
+        </participant>
+        <payment>
+            <price_agreed currency="SEK">0</price_agreed>
+            <amount_paid currency="SEK">0</amount_paid>
+            <payment_fullfilled>Yes</payment_fullfilled>
+        </payment>
+        <comment></comment>
+    </booking>
+
+    <booking id="R3722944">
+        <event code="2024-Membership" integer_value="210200" eventStartDate="2024-01-01"
+            eventStartShowing="2024-01-01">Dansarna.se Membership 2024</event>
+        <status regStatusCode="ACCEPTED" integer_value="64">Antagen</status>
+        <participant userId="U378860">
+            <userKey>Z3oMzxaroX8FQm89Gy1ZUOkv</userKey>
+            <name nickname="Patrik">Patrik Szigeti</name>
+            <dateOfBirth>1983-12-28</dateOfBirth>
+            <pid classicFormat="831228-5011">SE.198312285011</pid>
+        </participant>
+        <payment>
+            <price_agreed currency="SEK">0</price_agreed>
+            <amount_paid currency="SEK">0</amount_paid>
+            <payment_fullfilled>Yes</payment_fullfilled>
+        </payment>
+        <comment></comment>
+    </booking>
+
+    <booking id="R3722942">
+        <event code="2024-Membership" integer_value="210200" eventStartDate="2024-01-01"
+            eventStartShowing="2024-01-01">Dansarna.se Membership 2024</event>
+        <status regStatusCode="ACCEPTED" integer_value="64">Antagen</status>
+        <participant userId="U744239">
+            <userKey>mo0nA4eqWCSCnvw2zUSrgjKb</userKey>
+            <name nickname="Marlene">Marlene Wenngren</name>
+            <dateOfBirth>1984-06-05</dateOfBirth>
+            <pid classicFormat="840605-1428">SE.198406051428</pid>
+        </participant>
+        <payment>
+            <price_agreed currency="SEK">0</price_agreed>
+            <amount_paid currency="SEK">0</amount_paid>
+            <payment_fullfilled>Yes</payment_fullfilled>
+        </payment>
+        <comment></comment>
+    </booking>
+
+    <booking id="R3722941">
+        <event code="2024-Membership" integer_value="210200" eventStartDate="2024-01-01"
+            eventStartShowing="2024-01-01">Dansarna.se Membership 2024</event>
+        <status regStatusCode="ACCEPTED" integer_value="64">Antagen</status>
+        <participant userId="U746368">
+            <userKey>r6PMDIjmeXbgSFwqSU3mTMrL</userKey>
+            <name nickname="Lisa">Lisa Eklöf</name>
+            <dateOfBirth>1984-03-17</dateOfBirth>
+            <pid classicFormat="840317-1963">SE.198403171963</pid>
+        </participant>
+        <payment>
+            <price_agreed currency="SEK">0</price_agreed>
+            <amount_paid currency="SEK">0</amount_paid>
+            <payment_fullfilled>Yes</payment_fullfilled>
+        </payment>
+        <comment></comment>
+    </booking>
+
+    <booking id="R3722932">
+        <event code="2024-Membership" integer_value="210200" eventStartDate="2024-01-01"
+            eventStartShowing="2024-01-01">Dansarna.se Membership 2024</event>
+        <status regStatusCode="ACCEPTED" integer_value="64">Antagen</status>
+        <participant userId="U731349">
+            <userKey>b6Njn2vzApJQ5J2bweNi8YVP</userKey>
+            <name nickname="Kristina">Kristina Ferm</name>
+            <dateOfBirth>1989-08-23</dateOfBirth>
+            <pid classicFormat="890823-2005">SE.198908232005</pid>
+            <thumb width="128">https://static.cogwork.se/thumbs/portrait/100022719.jpg</thumb>
+        </participant>
+        <payment>
+            <price_agreed currency="SEK">0</price_agreed>
+            <amount_paid currency="SEK">0</amount_paid>
+            <payment_fullfilled>Yes</payment_fullfilled>
+        </payment>
+        <comment></comment>
+    </booking>
+
+    <booking id="R3722923">
+        <event code="2024-Membership" integer_value="210200" eventStartDate="2024-01-01"
+            eventStartShowing="2024-01-01">Dansarna.se Membership 2024</event>
+        <status regStatusCode="ACCEPTED" integer_value="64">Antagen</status>
+        <participant userId="U33515">
+            <userKey>aPurvDYxlbCykxhSR4K97OAX</userKey>
+            <name nickname="Jamie">Jamie Senewiratne</name>
+            <dateOfBirth>1985-05-08</dateOfBirth>
+            <pid classicFormat="850508-1680">SE.198505081680</pid>
+        </participant>
+        <payment>
+            <price_agreed currency="SEK">0</price_agreed>
+            <amount_paid currency="SEK">0</amount_paid>
+            <payment_fullfilled>Yes</payment_fullfilled>
+        </payment>
+        <comment></comment>
+    </booking>
+
+    <booking id="R3722922">
+        <event code="2024-Membership" integer_value="210200" eventStartDate="2024-01-01"
+            eventStartShowing="2024-01-01">Dansarna.se Membership 2024</event>
+        <status regStatusCode="ACCEPTED" integer_value="64">Antagen</status>
+        <participant userId="U44566">
+            <userKey>o8d7qTaBA9FPlNY4tJKb2RJo</userKey>
+            <name nickname="Jakob">Jakob Bjerkemo</name>
+            <dateOfBirth>1974-10-28</dateOfBirth>
+            <pid classicFormat="741028-3910">SE.197410283910</pid>
+        </participant>
+        <payment>
+            <price_agreed currency="SEK">0</price_agreed>
+            <amount_paid currency="SEK">0</amount_paid>
+            <payment_fullfilled>Yes</payment_fullfilled>
+        </payment>
+        <comment></comment>
+    </booking>
+
+    <booking id="R3722920">
+        <event code="2024-Membership" integer_value="210200" eventStartDate="2024-01-01"
+            eventStartShowing="2024-01-01">Dansarna.se Membership 2024</event>
+        <status regStatusCode="ACCEPTED" integer_value="64">Antagen</status>
+        <participant userId="U732040">
+            <userKey>70ArEARVRzhqVP7yjubLKObz</userKey>
+            <name nickname="Isabelle">Isabelle Almskoug</name>
+            <dateOfBirth>1992-10-11</dateOfBirth>
+            <pid classicFormat="921011-0384">SE.199210110384</pid>
+        </participant>
+        <payment>
+            <price_agreed currency="SEK">0</price_agreed>
+            <amount_paid currency="SEK">0</amount_paid>
+            <payment_fullfilled>Yes</payment_fullfilled>
+        </payment>
+        <comment></comment>
+    </booking>
+
+    <booking id="R3722918">
+        <event code="2024-Membership" integer_value="210200" eventStartDate="2024-01-01"
+            eventStartShowing="2024-01-01">Dansarna.se Membership 2024</event>
+        <status regStatusCode="ACCEPTED" integer_value="64">Antagen</status>
+        <participant userId="U326035">
+            <userKey>LvthljaAao6uRK6xsf7O4bsE</userKey>
+            <name nickname="Ingrid">Ingrid Södersten</name>
+            <dateOfBirth>1985-06-19</dateOfBirth>
+            <pid classicFormat="850619-7444">SE.198506197444</pid>
+        </participant>
+        <payment>
+            <price_agreed currency="SEK">0</price_agreed>
+            <amount_paid currency="SEK">0</amount_paid>
+            <payment_fullfilled>Yes</payment_fullfilled>
+        </payment>
+        <comment></comment>
+    </booking>
+
+    <booking id="R3722916">
+        <event code="2024-Membership" integer_value="210200" eventStartDate="2024-01-01"
+            eventStartShowing="2024-01-01">Dansarna.se Membership 2024</event>
+        <status regStatusCode="ACCEPTED" integer_value="64">Antagen</status>
+        <participant userId="U488235">
+            <userKey>CMvBm9E1MxifRT0vbD1EJDUD</userKey>
+            <name nickname="Hugo">Hugo Sandberg</name>
+            <dateOfBirth>1991-01-22</dateOfBirth>
+            <pid classicFormat="910122-3338">SE.199101223338</pid>
+        </participant>
+        <payment>
+            <price_agreed currency="SEK">0</price_agreed>
+            <amount_paid currency="SEK">0</amount_paid>
+            <payment_fullfilled>Yes</payment_fullfilled>
+        </payment>
+        <comment></comment>
+    </booking>
+
+    <booking id="R3722914">
+        <event code="2024-Membership" integer_value="210200" eventStartDate="2024-01-01"
+            eventStartShowing="2024-01-01">Dansarna.se Membership 2024</event>
+        <status regStatusCode="AWAITING_FEE" integer_value="48">Antas vid betalning</status>
+        <participant userId="U703384">
+            <userKey>FzG4MaNQPxJDqZDKv2BvVjp5</userKey>
+            <name nickname="Desi">Desirée Persson</name>
+            <dateOfBirth>1993-11-08</dateOfBirth>
+            <pid classicFormat="931108-1625">SE.199311081625</pid>
+        </participant>
+        <payment>
+            <price_agreed currency="SEK">0</price_agreed>
+            <amount_paid currency="SEK">0</amount_paid>
+            <payment_fullfilled>Yes</payment_fullfilled>
+        </payment>
+        <comment></comment>
+    </booking>
+
+    <booking id="R3722910">
+        <event code="2024-Membership" integer_value="210200" eventStartDate="2024-01-01"
+            eventStartShowing="2024-01-01">Dansarna.se Membership 2024</event>
+        <status regStatusCode="DENIED" integer_value="-69">Nekad</status>
+        <participant userId="U958880">
+            <userKey>dekkrrQTuVAWI14RKPRpeoaJ</userKey>
+            <name nickname="Carro">Caroline Eng</name>
+            <dateOfBirth>1978-04-03</dateOfBirth>
+            <pid classicFormat="780403-9365">SE.197804039365</pid>
+            <thumb width="128">https://static.cogwork.se/thumbs/portrait/100039876.jpg</thumb>
+        </participant>
+        <payment>
+            <price_agreed currency="SEK">0</price_agreed>
+            <amount_paid currency="SEK">0</amount_paid>
+            <payment_fullfilled>Yes</payment_fullfilled>
+        </payment>
+        <comment></comment>
+    </booking>
+
+    <booking id="R3722909">
+        <event code="2024-Membership" integer_value="210200" eventStartDate="2024-01-01"
+            eventStartShowing="2024-01-01">Dansarna.se Membership 2024</event>
+        <status regStatusCode="ACCEPTED" integer_value="64">Antagen</status>
+        <participant userId="U66550">
+            <userKey>k96Tc4zV5P1avJuUGTlKQ0kp</userKey>
+            <name nickname="Björn">Björn Löfstrand</name>
+            <dateOfBirth>1970-03-25</dateOfBirth>
+            <pid classicFormat="700325-5937">SE.197003255937</pid>
+            <thumb width="128">https://static.cogwork.se/thumbs/portrait/100022671.jpg</thumb>
+        </participant>
+        <payment>
+            <price_agreed currency="SEK">0</price_agreed>
+            <amount_paid currency="SEK">0</amount_paid>
+            <payment_fullfilled>Yes</payment_fullfilled>
+        </payment>
+        <comment></comment>
+    </booking>
+
+    <booking id="R3722908">
+        <event code="2024-Membership" integer_value="210200" eventStartDate="2024-01-01"
+            eventStartShowing="2024-01-01">Dansarna.se Membership 2024</event>
+        <status regStatusCode="DENIED" integer_value="-69">Nekad</status>
+        <participant userId="U1086182">
+            <userKey>cE8nEiVqIgFlTuyEqIGU8g55</userKey>
+            <name nickname="Anna">Anna Zuckerman</name>
+            <dateOfBirth>1999-11-18</dateOfBirth>
+            <pid classicFormat="991118-9380">SE.199911189380</pid>
+        </participant>
+        <payment>
+            <price_agreed currency="SEK">0</price_agreed>
+            <amount_paid currency="SEK">0</amount_paid>
+            <payment_fullfilled>Yes</payment_fullfilled>
+        </payment>
+        <comment></comment>
+    </booking>
+
+    <booking id="R3722896">
+        <event code="2024-Membership" integer_value="210200" eventStartDate="2024-01-01"
+            eventStartShowing="2024-01-01">Dansarna.se Membership 2024</event>
+        <status regStatusCode="ACCEPTED" integer_value="64">Antagen</status>
+        <participant userId="U282665">
+            <userKey>arFDROaXqDjtIHOcMaziP1Gp</userKey>
+            <name nickname="Marcus">Marcus Andersson</name>
+            <dateOfBirth>1984-07-25</dateOfBirth>
+            <pid classicFormat="840725-7057">SE.198407257057</pid>
+        </participant>
+        <payment>
+            <price_agreed currency="SEK">0</price_agreed>
+            <amount_paid currency="SEK">0</amount_paid>
+            <payment_fullfilled>Yes</payment_fullfilled>
+        </payment>
+        <comment></comment>
+    </booking>
+
+</bookings>
