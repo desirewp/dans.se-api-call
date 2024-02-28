@@ -4,7 +4,7 @@ export default class Instructor {
   constructor(
     public userId: string,
     public name: string,
-    public events: DanceEvent[],
+    public events: any[],
     public salary: number
   ) {
     this.userId = userId;

@@ -1,10 +1,10 @@
 interface IMemberData {
   bookings: {
-    booking: Booking[];
+    booking: MemberBooking[];
   };
 }
 
-interface Booking {
+interface MemberBooking {
   id: string;
   event: {
     code: string;

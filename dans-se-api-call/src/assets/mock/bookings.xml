@@ -1040,6 +1040,185 @@
                 </participant>
                 <comment />
         </booking>
+        <booking id="R3712430">
+                <event code="VT24-SENS-1" integer_value="209411" eventStartDate="2024-05-15"
+                        eventStartShowing="2023-12-24" eventStopShowing="2024-06-13">Sensual Heels</event>
+                <status regStatusCode="ACCEPTED" integer_value="64">Antagen</status>
+                <participant userId="U67746">
+                        <userKey>UwC7VfOvUmMHCBDA3neiEuFf</userKey>
+                        <name nickname="Ellinor">Ellinor Jelvinger</name>
+                        <dateOfBirth>1990-09-05</dateOfBirth>
+                        <pid classicFormat="900905-3845">SE.199009053845</pid>
+                </participant>
+                <payment>
+                        <price_agreed currency="SEK">640</price_agreed>
+                        <amount_paid currency="SEK">0</amount_paid>
+                        <payment_fullfilled>No</payment_fullfilled>
+                </payment>
+                <comment></comment>
+        </booking>
 
+        <booking id="R3678159">
+                <event code="VT24-SENS-1" integer_value="209411" eventStartDate="2024-05-15"
+                        eventStartShowing="2023-12-24" eventStopShowing="2024-06-13">Sensual Heels</event>
+                <status regStatusCode="ACCEPTED" integer_value="64">Antagen</status>
+                <participant userId="U534131">
+                        <userKey>kTK8EjDIkLLL1RAAnLcANCaF</userKey>
+                        <name nickname="Mette">Mette Axelsson Bjerg</name>
+                        <dateOfBirth>1990-06-21</dateOfBirth>
+                        <pid classicFormat="900621-5702">SE.199006215702</pid>
+                </participant>
+                <payment>
+                        <price_agreed currency="SEK">640</price_agreed>
+                        <amount_paid currency="SEK">0</amount_paid>
+                        <payment_fullfilled>No</payment_fullfilled>
+                </payment>
+                <comment></comment>
+        </booking>
+
+        <booking id="R3674922">
+                <event code="VT24-SENS-1" integer_value="209411" eventStartDate="2024-05-15"
+                        eventStartShowing="2023-12-24" eventStopShowing="2024-06-13">Sensual Heels</event>
+                <status regStatusCode="ACCEPTED" integer_value="64">Antagen</status>
+                <participant userId="U751051">
+                        <userKey>yOnEBtN16RD7SApyZhhgHa0U</userKey>
+                        <name nickname="Viktoria">Viktoria Årneby</name>
+                        <dateOfBirth>1993-03-12</dateOfBirth>
+                        <pid classicFormat="930312-1066">SE.199303121066</pid>
+                </participant>
+                <payment>
+                        <price_agreed currency="SEK">640</price_agreed>
+                        <amount_paid currency="SEK">0</amount_paid>
+                        <payment_fullfilled>No</payment_fullfilled>
+                </payment>
+                <comment></comment>
+        </booking>
+
+        <booking id="R3670127">
+                <event code="VT24-SENS-1" integer_value="209411" eventStartDate="2024-05-15"
+                        eventStartShowing="2023-12-24" eventStopShowing="2024-06-13">Sensual Heels</event>
+                <status regStatusCode="ACCEPTED" integer_value="64">Antagen</status>
+                <participant userId="U966773">
+                        <userKey>1NGZ80ESaznEVA0JXitPgIRE</userKey>
+                        <name nickname="Emma">Emma Wäppling</name>
+                        <dateOfBirth>1999-02-13</dateOfBirth>
+                        <pid classicFormat="990213-4528">SE.199902134528</pid>
+                </participant>
+                <payment>
+                        <price_agreed currency="SEK">640</price_agreed>
+                        <amount_paid currency="SEK">0</amount_paid>
+                        <payment_fullfilled>No</payment_fullfilled>
+                </payment>
+                <comment></comment>
+        </booking>
+
+        <booking id="R3665313">
+                <event code="VT24-SENS-1" integer_value="209411" eventStartDate="2024-05-15"
+                        eventStartShowing="2023-12-24" eventStopShowing="2024-06-13">Sensual Heels</event>
+                <status regStatusCode="ACCEPTED" integer_value="64">Antagen</status>
+                <participant userId="U745406">
+                        <userKey>GIP1RAvpZHH0ZqN8D2gkblCf</userKey>
+                        <name nickname="Therese">Therese Lothigius</name>
+                        <dateOfBirth>1979-09-07</dateOfBirth>
+                        <pid classicFormat="790907-0182">SE.197909070182</pid>
+                </participant>
+                <payment>
+                        <price_agreed currency="SEK">640</price_agreed>
+                        <amount_paid currency="SEK">0</amount_paid>
+                        <payment_fullfilled>No</payment_fullfilled>
+                </payment>
+                <comment></comment>
+        </booking>
+
+        <booking id="R3665297">
+                <event code="VT24-SENS-1" integer_value="209411" eventStartDate="2024-05-15"
+                        eventStartShowing="2023-12-24" eventStopShowing="2024-06-13">Sensual Heels</event>
+                <status regStatusCode="ACCEPTED" integer_value="64">Antagen</status>
+                <participant userId="U742711">
+                        <userKey>GNPCvORSxOK3q8zBz1fSkg2s</userKey>
+                        <name nickname="Maritta">Maritta Tuomi</name>
+                        <dateOfBirth>1982-12-31</dateOfBirth>
+                        <pid classicFormat="821231-0620">SE.198212310620</pid>
+                </participant>
+                <payment>
+                        <price_agreed currency="SEK">640</price_agreed>
+                        <amount_paid currency="SEK">0</amount_paid>
+                        <payment_fullfilled>No</payment_fullfilled>
+                </payment>
+                <comment></comment>
+        </booking>
+
+        <booking id="R3663759">
+                <event code="VT24-SENS-1" integer_value="209411" eventStartDate="2024-05-15"
+                        eventStartShowing="2023-12-24" eventStopShowing="2024-06-13">Sensual Heels</event>
+                <status regStatusCode="ACCEPTED" integer_value="64">Antagen</status>
+                <participant userId="U1100568">
+                        <userKey>m9wtpsj5BJbIyolgjOkjr7na</userKey>
+                        <name nickname="Emma">Emma Westman</name>
+                        <dateOfBirth>1985-02-19</dateOfBirth>
+                        <pid classicFormat="850219-1987">SE.198502191987</pid>
+                </participant>
+                <payment>
+                        <price_agreed currency="SEK">640</price_agreed>
+                        <amount_paid currency="SEK">0</amount_paid>
+                        <payment_fullfilled>No</payment_fullfilled>
+                </payment>
+                <comment></comment>
+        </booking>
+
+        <booking id="R3663748">
+                <event code="VT24-SENS-1" integer_value="209411" eventStartDate="2024-05-15"
+                        eventStartShowing="2023-12-24" eventStopShowing="2024-06-13">Sensual Heels</event>
+                <status regStatusCode="ACCEPTED" integer_value="64">Antagen</status>
+                <participant userId="U979445">
+                        <userKey>tFhMLl0ipxWzBeqG5bOyUUla</userKey>
+                        <name nickname="Matilda">Matilda Johnsson</name>
+                        <dateOfBirth>1995-06-03</dateOfBirth>
+                        <pid classicFormat="950603-3589">SE.199506033589</pid>
+                </participant>
+                <payment>
+                        <price_agreed currency="SEK">640</price_agreed>
+                        <amount_paid currency="SEK">640</amount_paid>
+                        <payment_fullfilled>Yes</payment_fullfilled>
+                </payment>
+                <comment></comment>
+        </booking>
+
+        <booking id="R3663567">
+                <event code="VT24-SENS-1" integer_value="209411" eventStartDate="2024-05-15"
+                        eventStartShowing="2023-12-24" eventStopShowing="2024-06-13">Sensual Heels</event>
+                <status regStatusCode="ACCEPTED" integer_value="64">Antagen</status>
+                <participant userId="U774746">
+                        <userKey>4kzxnKu0QCCVcI1jQgyCOPwa</userKey>
+                        <name nickname="Evangelia">Eva Höjer</name>
+                        <dateOfBirth>1992-05-07</dateOfBirth>
+                        <pid classicFormat="920507-3043">SE.199205073043</pid>
+                </participant>
+                <payment>
+                        <price_agreed currency="SEK">640</price_agreed>
+                        <amount_paid currency="SEK">0</amount_paid>
+                        <payment_fullfilled>No</payment_fullfilled>
+                </payment>
+                <comment></comment>
+        </booking>
+
+        <booking id="R3663328">
+                <event code="VT24-SENS-1" integer_value="209411" eventStartDate="2024-05-15"
+                        eventStartShowing="2023-12-24" eventStopShowing="2024-06-13">Sensual Heels</event>
+                <status regStatusCode="INSTRUCTOR" integer_value="96">Instruktör</status>
+                <participant userId="U731349">
+                        <userKey>b6Njn2vzApJQ5J2bweNi8YVP</userKey>
+                        <name nickname="Kristina">Kristina Ferm</name>
+                        <dateOfBirth>1989-08-23</dateOfBirth>
+                        <pid classicFormat="890823-2005">SE.198908232005</pid>
+                        <thumb width="128">https://static.cogwork.se/thumbs/portrait/100022719.jpg</thumb>
+                </participant>
+                <payment>
+                        <price_agreed currency="SEK">0</price_agreed>
+                        <amount_paid currency="SEK">0</amount_paid>
+                        <payment_fullfilled>Yes</payment_fullfilled>
+                </payment>
+                <comment></comment>
+        </booking>
 
 </bookings>

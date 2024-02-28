@@ -2,6 +2,8 @@ import React from "react";
 import { useCallback, useEffect, useState } from "react";
 import { xml2json } from "xml-js";
 
+import { IEventData, IEvent } from "../../interfaces/EventData";
+
 import Instructor from "../../models/instructor";
 import DanceEvent from "../../models/event";
 
@@ -11,6 +13,7 @@ export default function LandingPage() {
   const [memberData, setMemberData] = useState<IMemberData>();
 
   const [instructors, setInstructors] = useState<Instructor[]>([]);
+  const [events, setEvents] = useState<DanceEvent[]>([]);
 
   let organisatonTax: number = 0.2;
   let rent: number = 150000;
@@ -47,7 +50,7 @@ export default function LandingPage() {
     }
   }, []);
 
-  const fetchEventJson = useCallback(async () => {;
+  const fetchEventJson = useCallback(async () => {
     try {
       const response = await fetch("src/assets/mock/events.json");
       if (!response.ok) {
@@ -86,7 +89,6 @@ export default function LandingPage() {
     if (totalMinutes != 0) {
       const rentMinute = Math.round((rent * 100) / totalMinutes) / 100;
       setRentPerMinute(rentMinute);
-      // console.log(rentMinute);
     }
   };
 
@@ -94,61 +96,178 @@ export default function LandingPage() {
     fetchBookingXML()
       .then(fetchMemberXML)
       .then(fetchEventJson)
-      .then(() => {
-        if (memberData && bookingData) {
-          calcTotalMinutes();
-          calcRentPerMinute();
-          populateInstructorsArray();
-        }
-      })
       .catch((error) => {
         console.error("Error fetching data:", error);
       });
   }, [fetchBookingXML, fetchMemberXML, fetchEventJson]);
 
   useEffect(() => {
-    if (memberData && bookingData) {
+    if (memberData && bookingData && eventData) {
       calcTotalMinutes();
       calcRentPerMinute();
+      populateEventsArray();
       populateInstructorsArray();
     }
   }, [memberData, bookingData, eventData]);
 
+  // const populateInstructorsArray = () => {
+  //   if (memberData && bookingData) {
+  //     let allInstructors: Instructor[] = memberData.bookings.booking.map(
+  //       (member) => {
+  //         const instructorEvents: DanceEvent[] = [];
+
+  //         //Kollar vilka evenameng instruktören har hållit
+  //         bookingData.bookings.booking.forEach((booking) => {
+  //           if (
+  //             member.participant._attributes.userId ===
+  //               booking.participant._attributes.userId &&
+  //             booking.status._attributes.regStatusCode === "INSTRUCTOR"
+  //           ) {
+  //             // Här behöver tryckas in event förtjänst med
+  //             // If the member is an instructor, add the event to their events array
+  //             instructorEvents.push(new DanceEvent(booking.event._text, 0)); // You need to provide a value for totalAddmissionFees
+  //           }
+  //         });
+  //         let newInstructor = new Instructor(
+  //           member.participant._attributes.userId,
+  //           member.participant.name._text,
+  //           instructorEvents,
+  //           0
+  //         );
+  //         return newInstructor;
+  //       }
+  //     );
+  //     setInstructors(allInstructors);
+  //   }
+  // };
+
   const populateInstructorsArray = () => {
-    if (memberData && bookingData) {
+    if (memberData && bookingData && eventData && events) {
+      console.log(events);
       let allInstructors: Instructor[] = memberData.bookings.booking.map(
         (member) => {
+          const userId = member.participant._attributes.userId;
           const instructorEvents: DanceEvent[] = [];
 
-          //Kollar vilka evenameng instruktören har hållit
-          bookingData.bookings.booking.forEach((booking) => {
-            if (
-              member.participant._attributes.userId ===
-                booking.participant._attributes.userId &&
+          // Get all bookings for the current instructor
+          const instructorBookings = bookingData.bookings.booking.filter(
+            (booking) =>
+              booking.participant._attributes.userId === userId &&
               booking.status._attributes.regStatusCode === "INSTRUCTOR"
-            ) {
-              // If the member is an instructor, add the event to their events array
-              instructorEvents.push(new DanceEvent(booking.event._text, 0)); // You need to provide a value for totalAddmissionFees
+          );
+
+          // Process events for the current instructor
+          instructorBookings.forEach((booking) => {
+            const eventId = booking.event._attributes.integer_value;
+            const event = eventData.events.find((e) => e.id === eventId);
+            const admissionFees = 10;
+
+            if (event) {
+              // Check if an event with the same ID already exists in instructorEvents
+              const existingEventIndex = instructorEvents.findIndex(
+                (e) => e.eventId === eventId
+              );
+
+              if (existingEventIndex !== -1) {
+                // If exists, update the totalAdmissionFees
+                instructorEvents[existingEventIndex].totalAdmissionFees +=
+                  admissionFees;
+              } else {
+                // If not, add a new DanceEvent to instructorEvents with correct totalAdmissionFees
+                const newDanceEvent = new DanceEvent(
+                  event.id,
+                  event.name,
+                  0,
+                  0,
+                  0,
+                  admissionFees
+                );
+                instructorEvents.push(newDanceEvent);
+              }
             }
           });
+
           let newInstructor = new Instructor(
-            member.participant._attributes.userId,
+            userId,
             member.participant.name._text,
-            instructorEvents,
+            instructorEvents, // Pass instructorEvents array here
             0
           );
+
           return newInstructor;
         }
       );
-      setInstructors(allInstructors);
 
-      // console.log(allInstructors);
+      setInstructors(allInstructors);
     }
+  };
+
+  const populateEventsArray = () => {
+    if (eventData) {
+      const allEvents: DanceEvent[] = [];
+      eventData.events.forEach((event) => {
+        let newEvent = new DanceEvent(
+          event.id,
+          event.name,
+          event.statistics?.accepted ? Number(event.statistics.accepted) : 0,
+          event.statistics?.instructors
+            ? Number(event.statistics.instructors)
+            : 0,
+          getDuration(event),
+          getCourseProfit(event)
+        );
+        allEvents.push(newEvent);
+      });
+      setEvents(allEvents);
+    }
+  };
+
+  const getDuration = (event: IEvent) => {
+    let occasions = event.schedule?.occasions?.map((occasion: any) => {
+      return occasion.length;
+    });
+    if (occasions != undefined) {
+      const duration: number = occasions.reduce((acc, curr) => acc + curr, 0);
+      return duration / 60;
+    }
+    return 0;
+  };
+
+  const getCourseProfit = (event: IEvent): number => {
+    // console.log(event);
+    const participantPayments: number[] = [];
+    if (!bookingData) {
+      console.log("booking data finns ej");
+      return 0;
+    }
+    const participants: Booking[] = bookingData.bookings.booking.filter(
+      (booking) => {
+        if (booking.event._attributes.integer_value === event.id) {
+          console.log(booking);
+          return booking;
+        }
+      }
+    );
+
+    // console.log(participants);
+    participants.forEach((participant: Booking) => {
+      let payment: number = participant.payment?.amount_paid?._text
+        ? Number(participant?.payment.amount_paid._text)
+        : 0;
+      participantPayments.push(payment);
+    });
+
+    let profit: number = participantPayments.reduce(
+      (acc, curr) => acc + curr,
+      0
+    );
+    return profit!;
   };
 
   return (
     <>
       <p>Dansarna skatt: {organisatonTax * 100}%</p>
+
       <p>Totala kursminuter: {totalMinutes} min</p>
 
       <p>Hyra: {rent} kr</p>
@@ -170,7 +289,7 @@ export default function LandingPage() {
               <React.Fragment key={index}>
                 <tr>
                   <td>{instructor.name}</td>
-                  <td>Evenemang st</td>
+                  <td>{instructor.events.length} st</td>
                   <td>Totalt Arvode SEK</td>
                 </tr>
                 <tr>
@@ -188,7 +307,7 @@ export default function LandingPage() {
                           return (
                             <tr key={index1}>
                               <td>{event.eventName}</td>
-                              <td>{event.totalAddmissionFees}</td>
+                              <td>{event.totalAdmissionFees}</td>
                             </tr>
                           );
                         })}
@@ -201,6 +320,47 @@ export default function LandingPage() {
           })}
         </tbody>
       </table>
+
+      <table>
+        <thead>
+          <tr>
+            <td>Id</td>
+            <td>Namn</td>
+            <td>Deltagare</td>
+            <td>Instruktörer</td>
+            <td>Längd</td>
+            <td>Inkomst</td>
+          </tr>
+        </thead>
+        <tbody>
+          {eventData !== undefined &&
+            eventData.events.map((event) => (
+              <tr key={event.id}>
+                <td>{event.id}</td>
+                <td>{event.name}</td>
+                <td>{event.statistics?.accepted}</td>
+                <td>{event.statistics?.instructors}</td>
+                <td>{getDuration(event)} min</td>
+                <td>Inkomst</td>
+                {/* Ta denna info och spara istället vid hämtning */}
+              </tr>
+            ))}
+        </tbody>
+      </table>
+
+      {/* <table>
+        <tbody>
+          {bookingData !== undefined &&
+            bookingData.bookings.booking.map((booking) => (
+              <tr key={booking._attributes.id}>
+                <td>{booking._attributes.id}</td>
+                <td>{booking.event._attributes.integer_value}</td>
+
+                <td>{booking.payment?.amount_paid._text}</td>
+              </tr>
+            ))}
+        </tbody>
+      </table> */}
     </>
   );
 }
